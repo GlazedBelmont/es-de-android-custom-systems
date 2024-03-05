@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!-- This is the ES-DE find rules configuration file for Android -->
+<ruleList>
+    <emulator name="CITRA">
+        <!-- Nintendo 3DS emulator Citra -->
+        <rule type="androidpackage">
+            <entry>org.citra.citra_emu/.activities.EmulationActivity</entry>
+            <entry>org.citra.citra_emu/.ui.main.MainActivity</entry>
+        </rule>
+    </emulator>
+    <emulator name="CITRA-CANARY">
+        <!-- Nintendo 3DS emulator Citra Canary -->
+        <rule type="androidpackage">
+            <entry>org.citra.citra_emu.canary/org.citra.citra_emu.activities.EmulationActivity</entry>
+        </rule>
+    </emulator>
+    <emulator name="CITRA-MMJ">
+        <!-- Nintendo 3DS emulator Citra MMJ -->
+        <rule type="androidpackage">
+            <entry>org.citra.emu/.ui.EmulationActivity</entry>
+        </rule>
+    </emulator>
+    <emulator name="SKYLINE">
+        <!-- Nintendo Switch emulator Skyline -->
+        <rule type="androidpackage">
+            <entry>skyline.emu/emu.skyline.EmulationActivity</entry>
+        </rule>
+    </emulator>
+    <emulator name="YUZU">
+        <!-- Nintendo Switch emulator Yuzu -->
+        <rule type="androidpackage">
+            <entry>org.yuzu.yuzu_emu/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+        </rule>
+    </emulator>
+    <emulator name="YUZU-EA">
+        <!-- Nintendo Switch emulator Yuzu (Early Access) -->
+        <rule type="androidpackage">
+            <entry>org.yuzu.yuzu_emu.ea/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+        </rule>
+    </emulator>
+</ruleList>
