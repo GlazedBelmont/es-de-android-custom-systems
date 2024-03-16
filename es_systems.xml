@@ -2,6 +2,15 @@
 <!-- This is the ES-DE game systems configuration file for Android -->
 <systemList>
     <system>
+        <name>apps</name>
+        <fullname>Apps</fullname>
+        <path>%ROMPATH%/apps</path>
+        <extension>.app</extension>
+        <command label="ES Applauncher">%EMULATOR_APPS% %EXTRA_GamePath%=%ROM%</command>
+        <platform>apps</platform>
+        <theme>android</theme>
+    </system>
+    <system>
         <name>gbh</name>
         <fullname>Nintendo Game Boy Hacks</fullname>
         <path>%ROMPATH%/gbh</path>
