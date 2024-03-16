@@ -1,4 +1,5 @@
 Those 2 XMLs will add in the following systems
+- Android apps (`apps`) **NEEDS [ES APPLAUNCHER](https://drive.google.com/file/d/1KkQKE2MmAURoTJbdYUQKYX4eaoSdqjkf/view?usp=drive_link) INSTALLED, full credits alex_alchemy3d**
 - 3DS (`n3ds`)
 - Gameboy Hacks (`gbh`)
 - Gameboy Color Hacks (`gbch`)
