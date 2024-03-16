@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <!-- This is the ES-DE find rules configuration file for Android -->
 <ruleList>
+    <emulator name="APPS">
+        <!-- App Launcher -->
+        <rule type="androidpackage">
+            <entry>com.example.es_applauncher/com.example.es_applauncher.MainActivity</entry>
+        </rule>
+    </emulator>
     <emulator name="CITRA">
         <!-- Nintendo 3DS emulator Citra -->
         <rule type="androidpackage">
