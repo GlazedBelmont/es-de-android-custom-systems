@@ -32,6 +32,12 @@
             <entry>skyline.emu/emu.skyline.EmulationActivity</entry>
         </rule>
     </emulator>
+    <emulator name="YABASANSHIRO-STANDALONE-PRO">
+        <!-- Sega Saturn emulator Yabasanshiro -->
+        <rule type="androidpackage">
+            <entry>org.devmiyax.yabasanshioro2.pro/org.uoyabause.android.Yabause</entry>
+        </rule>
+    </emulator>
     <emulator name="YUZU">
         <!-- Nintendo Switch emulator Yuzu -->
         <rule type="androidpackage">
