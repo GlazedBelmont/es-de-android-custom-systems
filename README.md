@@ -1,6 +1,8 @@
 Those 2 XMLs will add in the following systems
-- Android apps (`apps`) **NEEDS [ES APPLAUNCHER](https://discord.com/channels/1014777854384414762/1167669115620692018/1218409674160869397) INSTALLED, full credits alex_alchemy3d, you can find the app in the [AYN server](https://discord.gg/YX8c2xEw4e)**
+- Android apps (`apps`) **NEEDS [ES APPLAUNCHER](https://github.com/schattenphoenix/es_applauncher/releases/latest/download/es_launcher.apk
+) INSTALLED, full credits [schattenphoenix](https://github.com/schattenphoenix), you can find the app in the [ES Launcher repository](https://github.com/schattenphoenix/es_applauncher)**
 - 3DS (`n3ds`)
+- Emulators (`emulators`)
 - Gameboy Hacks (`gbh`)
 - Gameboy Color Hacks (`gbch`)
 - Gameboy Advance Hacks (`gbah`)
