@@ -11,10 +11,10 @@ Those 2 XMLs will add in the following systems
 - SNES Hacks (`snesh`)
 - Switch (`switch`)
 
-They are to be placed in `ES-DE/custom_systems`
+They are to be placed in `ES-DE/custom_systems` (Download them and copy/paste them into that directory, make sure you don't have them end as `.txt`, they _have_ to be `.xml`)
 
 
-Why? I come from JelOS and these folders were present, art-book-next-es-de also has support for those now.
+Why the hacks folders? I come from JelOS and these folders were present, art-book-next-es-de also has support for those now.
 
 
 # I am not affiliated with ES-DE in any way apart from being a supporter.
