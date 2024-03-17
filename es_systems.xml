@@ -11,6 +11,15 @@
         <theme>android</theme>
     </system>
     <system>
+        <name>emulators</name>
+        <fullname>Emulators</fullname>
+        <path>%ROMPATH%/emulators</path>
+        <extension>.app</extension>
+        <command label="ES Applauncher">%EMULATOR_APPS% %EXTRA_GamePath%=%ROM%</command>
+        <platform>emulators</platform>
+        <theme>emulators</theme>
+    </system>
+    <system>
         <name>gbh</name>
         <fullname>Nintendo Game Boy Hacks</fullname>
         <path>%ROMPATH%/gbh</path>
