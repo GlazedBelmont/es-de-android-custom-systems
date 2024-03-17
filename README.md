@@ -1,5 +1,5 @@
 Those 2 XMLs will add in the following systems
-- Android apps (`apps`) **NEEDS [ES APPLAUNCHER]([https://drive.google.com/file/d/1KkQKE2MmAURoTJbdYUQKYX4eaoSdqjkf/view?usp=drive_link](https://discord.com/channels/1014777854384414762/1167669115620692018/1218409674160869397)) INSTALLED, full credits alex_alchemy3d, you can find the app in the [AYN server](https://discord.gg/YX8c2xEw4e)**
+- Android apps (`apps`) **NEEDS [ES APPLAUNCHER](https://discord.com/channels/1014777854384414762/1167669115620692018/1218409674160869397) INSTALLED, full credits alex_alchemy3d, you can find the app in the [AYN server](https://discord.gg/YX8c2xEw4e)**
 - 3DS (`n3ds`)
 - Gameboy Hacks (`gbh`)
 - Gameboy Color Hacks (`gbch`)
