@@ -115,7 +115,7 @@
         <command label="YabaSanshiro">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=yabasanshiro_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="Yabause">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=yabause_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="Saturn.emu (Standalone)">%EMULATOR_SATURN-EMU% %DATA%=%ROMSAF%</command>
-        <command label="YabaSanshiro(Standalone)">%EMULATOR_YABASANSHIRO-STANDALONE% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %EXTRA_org.uoyabause.android.FileNameUri%=%ROMSAF%</command>
+        <command label="YabaSanshiro 2 Pro (Standalone)">%EMULATOR_YABASANSHIRO-STANDALONE-PRO% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %EXTRA_org.uoyabause.android.FileNameUri%=%ROMSAF%</command>
         <platform>saturn</platform>
         <theme>saturn</theme>
     </system>
@@ -128,7 +128,7 @@
         <command label="YabaSanshiro">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=yabasanshiro_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="Yabause">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=yabause_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="Saturn.emu (Standalone)">%EMULATOR_SATURN-EMU% %DATA%=%ROMSAF%</command>
-        <command label="YabaSanshiro(Standalone)">%EMULATOR_YABASANSHIRO-STANDALONE% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %EXTRA_org.uoyabause.android.FileNameUri%=%ROMSAF%</command>        <command label="YabaSanshiro">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=yabasanshiro_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="YabaSanshiro 2 Pro (Standalone)">%EMULATOR_YABASANSHIRO-STANDALONE-PRO% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %EXTRA_org.uoyabause.android.FileNameUri%=%ROMSAF%</command>        <command label="YabaSanshiro">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=yabasanshiro_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <platform>saturn</platform>
         <theme>saturnjp</theme>
     </system>
