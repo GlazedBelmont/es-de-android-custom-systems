@@ -1,5 +1,5 @@
 Those 2 XMLs will add in the following systems
-- Android apps (`apps`) **NEEDS [ES APPLAUNCHER](https://github.com/schattenphoenix/es_applauncher/releases/latest/download/es_launcher.apk
+- Android apps (`applauncher_apps` & `applauncher_games`) **NEEDS [ES APPLAUNCHER](https://github.com/schattenphoenix/es_applauncher/releases/latest/download/es_launcher.apk
 ) INSTALLED, full credits to [schattenphoenix](https://github.com/schattenphoenix), you can find the app in the [es_applauncher repository](https://github.com/schattenphoenix/es_applauncher)**
 - 3DS (`n3ds`)
 - Emulators (`emulators`)
