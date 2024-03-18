@@ -27,6 +27,7 @@
         <command label="ES Applauncher">%EMULATOR_APPS% %EXTRA_GamePath%=%ROM%</command>
         <platform>android</platform>
         <theme>androidgames</theme>
+    </system>
     <system>
         <name>emulators</name>
         <fullname>Emulators</fullname>
