@@ -11,6 +11,23 @@
         <theme>android</theme>
     </system>
     <system>
+        <name>androidapps</name>
+        <fullname>Android Apps</fullname>
+        <path>%ROMPATH%/applauncher_apps</path>
+        <extension>.app</extension>
+        <command label="ES Applauncher">%EMULATOR_APPS% %EXTRA_GamePath%=%ROM%</command>
+        <platform>android</platform>
+        <theme>androidapps</theme>
+    </system>
+    <system>
+        <name>androidgames</name>
+        <fullname>Android Games</fullname>
+        <path>%ROMPATH%/applauncher_games</path>
+        <extension>.app</extension>
+        <command label="ES Applauncher">%EMULATOR_APPS% %EXTRA_GamePath%=%ROM%</command>
+        <platform>android</platform>
+        <theme>androidgames</theme>
+    <system>
         <name>emulators</name>
         <fullname>Emulators</fullname>
         <path>%ROMPATH%/emulators</path>
