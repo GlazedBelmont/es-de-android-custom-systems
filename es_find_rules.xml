@@ -29,10 +29,10 @@
     <emulator name="LEMONADE">
         <!-- Nintendo 3DS emulator Lemonade -->
         <rule type="androidpackage">
+	    <entry>org.gamerytb.lemonade.canary/org.citra.citra_emu.activities.EmulationActivity</entry>
+	    <entry>org.gamerytb.lemonade.canary/org.citra.citra_emu.ui.main.MainActivity</entry>
 	    <entry>org.lemonade.lemonade_emu/.activities.EmulationActivity</entry>
             <entry>org.lemonade.lemonade_emu/.ui.main.MainActivity</entry>
-            <entry>org.citra.citra_emu/.activities.EmulationActivity</entry>
-            <entry>org.citra.citra_emu/.ui.main.MainActivity</entry>
         </rule>
     </emulator>
     <emulator name="SKYLINE">
