@@ -13,7 +13,7 @@
     <system>
         <name>androidapps</name>
         <fullname>Android Apps</fullname>
-        <path>%ROMPATH%/applauncher_apps</path>
+        <path>%ROMPATH%/androidapps</path>
         <extension>.app</extension>
         <command label="ES Applauncher">%EMULATOR_APPS% %EXTRA_GamePath%=%ROM%</command>
         <platform>android</platform>
@@ -22,7 +22,7 @@
     <system>
         <name>androidgames</name>
         <fullname>Android Games</fullname>
-        <path>%ROMPATH%/applauncher_games</path>
+        <path>%ROMPATH%/androidgames</path>
         <extension>.app</extension>
         <command label="ES Applauncher">%EMULATOR_APPS% %EXTRA_GamePath%=%ROM%</command>
         <platform>android</platform>
