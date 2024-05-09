@@ -107,6 +107,19 @@
         <theme>genh</theme>
     </system>
     <system>
+        <name>msu-md</name>
+        <fullname>Sega Mega Drive MSU</fullname>
+        <path>%ROMPATH%/msu-md</path>
+        <extension>.32x .32X .68k .68K .bin .BIN .bms .BMS .chd .CHD .cue .CUE .gen .GEN .gg .GG .iso .ISO .m3u .M3U .md .MD .mdx .MDX .sg .SG .sgd .SGD .smd .SMD .sms .SMS .7z .7Z .zip .ZIP</extension>
+        <command label="Genesis Plus GX">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=genesis_plus_gx_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="Genesis Plus GX Wide">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=genesis_plus_gx_wide_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="PicoDrive">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=picodrive_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="MD.emu (Standalone)">%EMULATOR_MD-EMU% %DATA%=%ROMPROVIDER%</command>
+        <platform>msu-md</platform>
+        <theme>msu-md</theme>
+    </system>
+
+    <system>
         <name>n3ds</name>
         <fullname>Nintendo 3DS</fullname>
         <path>%ROMPATH%/n3ds</path>
@@ -177,6 +190,24 @@
         <platform>snes</platform>
         <theme>snesh</theme>
     </system>
+    <system>
+        <name>snes-msu1</name>
+        <fullname>Nintendo SNES (Super Nintendo)</fullname>
+        <path>%ROMPATH%/snes-msu1</path>
+        <extension>.bin .BIN .bml .BML .bs .BS .bsx .BSX .dx2 .DX2 .fig .FIG .gd3 .GD3 .gd7 .GD7 .mgd .MGD .sfc .SFC .smc .SMC .st .ST .swc .SWC .7z .7Z .zip .ZIP</extension>
+        <command label="Snes9x - Current">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=snes9x_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="Snes9x 2010">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=snes9x2010_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="Snes9x 2005 Plus">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=snes9x2005_plus_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="Snes9x EX+ (Standalone)">%EMULATOR_SNES9X-EXPLUS% %DATA%=%ROMSAF%</command>
+        <command label="bsnes">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=bsnes_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="bsnes-hd">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=bsnes_hd_beta_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="bsnes-mercury Accuracy">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=bsnes_mercury_accuracy_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="Beetle Supafaust">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=mednafen_supafaust_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="Mesen-S">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=mesen-s_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <platform>snes-msu1</platform>
+        <theme>snes-msu1</theme>
+    </system>
+
     <system>
         <name>switch</name>
         <fullname>Nintendo Switch</fullname>
