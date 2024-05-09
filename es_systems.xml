@@ -118,7 +118,6 @@
         <platform>msu-md</platform>
         <theme>msu-md</theme>
     </system>
-
     <system>
         <name>n3ds</name>
         <fullname>Nintendo 3DS</fullname>
