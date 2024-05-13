@@ -1,7 +1,4 @@
 Those 2 XMLs will add in the following systems
-- Android apps (`androidapps` & `androidgames`) **NEEDS [ES APPLAUNCHER](https://github.com/schattenphoenix/es_applauncher/releases/latest/)
-) INSTALLED, full credits to [schattenphoenix](https://github.com/schattenphoenix), follow the instructions on the [es_applauncher repository](https://github.com/schattenphoenix/es_applauncher)**
-- 3DS (`n3ds`)
 - Emulators (`emulators`)
 - Gameboy Hacks (`gbh`)
 - Gameboy Color Hacks (`gbch`)
