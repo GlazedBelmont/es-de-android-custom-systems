@@ -1,31 +1,6 @@
 <?xml version="1.0"?>
 <!-- This is the ES-DE find rules configuration file for Android -->
 <ruleList>
-    <emulator name="APPS">
-        <!-- App Launcher -->
-        <rule type="androidpackage">
-            <entry>com.example.es_applauncher/com.example.es_applauncher.MainActivity</entry>
-        </rule>
-    </emulator>
-    <emulator name="CITRA">
-        <!-- Nintendo 3DS emulator Citra -->
-        <rule type="androidpackage">
-            <entry>org.citra.citra_emu/.activities.EmulationActivity</entry>
-            <entry>org.citra.citra_emu/.ui.main.MainActivity</entry>
-        </rule>
-    </emulator>
-    <emulator name="CITRA-CANARY">
-        <!-- Nintendo 3DS emulator Citra Canary -->
-        <rule type="androidpackage">
-            <entry>org.citra.citra_emu.canary/org.citra.citra_emu.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>
-    <emulator name="CITRA-MMJ">
-        <!-- Nintendo 3DS emulator Citra MMJ -->
-        <rule type="androidpackage">
-            <entry>org.citra.emu/.ui.EmulationActivity</entry>
-        </rule>
-    </emulator>
     <emulator name="LEMONADE">
         <!-- Nintendo 3DS emulator Lemonade -->
         <rule type="androidpackage">
