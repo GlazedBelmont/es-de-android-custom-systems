@@ -15,13 +15,6 @@
             <entry>org.lemonade.lemonade_emu.canary/org.lemonade.lemonade_emu.ui.main.MainActivity</entry>
         </rule>
     </emulator>
-    <emulator name="LIME3DS">
-        <!-- Nintendo 3DS emulator Lime3DS -->
-        <rule type="androidpackage">
-	    <entry>io.github.lime3ds.android/.activities.EmulationActivity</entry>
-	    <entry>io.github.lime3ds.android/.ui.main.MainActivity</entry>
-        </rule>
-    </emulator>
     <emulator name="SKYLINE">
         <!-- Nintendo Switch emulator Skyline -->
         <rule type="androidpackage">
