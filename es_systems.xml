@@ -6,7 +6,7 @@
         <fullname>Emulators</fullname>
         <path>%ROMPATH%/emulators</path>
         <extension>.app</extension>
-        <command label="ES Applauncher">%EMULATOR_APPS% %EXTRA_GamePath%=%ROM%</command>
+        <command label="Android Emulator">%ANDROIDAPP%=%FILEINJECT%</command>
         <platform>emulators</platform>
         <theme>emulators</theme>
     </system>
