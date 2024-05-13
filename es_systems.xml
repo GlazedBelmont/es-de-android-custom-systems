@@ -2,33 +2,6 @@
 <!-- This is the ES-DE game systems configuration file for Android -->
 <systemList>
     <system>
-        <name>android</name>
-        <fullname>Android Apps</fullname>
-        <path>%ROMPATH%/apps</path>
-        <extension>.app</extension>
-        <command label="ES Applauncher">%EMULATOR_APPS% %EXTRA_GamePath%=%ROM%</command>
-        <platform>apps</platform>
-        <theme>android</theme>
-    </system>
-    <system>
-        <name>androidapps</name>
-        <fullname>Android Apps</fullname>
-        <path>%ROMPATH%/androidapps</path>
-        <extension>.app</extension>
-        <command label="ES Applauncher">%EMULATOR_APPS% %EXTRA_GamePath%=%ROM%</command>
-        <platform>android</platform>
-        <theme>androidapps</theme>
-    </system>
-    <system>
-        <name>androidgames</name>
-        <fullname>Android Games</fullname>
-        <path>%ROMPATH%/androidgames</path>
-        <extension>.app</extension>
-        <command label="ES Applauncher">%EMULATOR_APPS% %EXTRA_GamePath%=%ROM%</command>
-        <platform>android</platform>
-        <theme>androidgames</theme>
-    </system>
-    <system>
         <name>emulators</name>
         <fullname>Emulators</fullname>
         <path>%ROMPATH%/emulators</path>
