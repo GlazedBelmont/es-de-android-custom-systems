@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <!-- This is the ES-DE find rules configuration file for Android -->
 <ruleList>
+    <emulator name="CITRA-ENHANCED">
+        <!-- Nintendo 3DS emulator Citra Enhanced -->
+        <rule type="androidpackage">
+	     <entry>org.gamerytb.citra.canary/org.citra.citra_emu.ui.main.MainActivity</entry>
+        </rule>
+    </emulator>	
     <emulator name="LEMONADE">
         <!-- Nintendo 3DS emulator Lemonade -->
         <rule type="androidpackage">
