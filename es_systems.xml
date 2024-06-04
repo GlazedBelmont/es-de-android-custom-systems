@@ -6,8 +6,8 @@
         <fullname>Emulators</fullname>
         <path>%ROMPATH%/emulators</path>
         <extension>.app</extension>
-        <command label="Android Emulator">%ANDROIDAPP%=%FILEINJECT%</command>
-        <platform>emulators</platform>
+        <command label="Android Emulators">%ANDROIDAPP%=%FILEINJECT%</command>
+        <platform>android</platform>
         <theme>emulators</theme>
     </system>
     <system>
