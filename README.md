@@ -1,5 +1,4 @@
 Those 2 XMLs will add in the following systems
-- Emulators (`emulators`)
 - Gameboy Hacks (`gbh`)
 - Gameboy Color Hacks (`gbch`)
 - Gameboy Advance Hacks (`gbah`)
