@@ -8,7 +8,7 @@
         </rule>
     </emulator>	
     <emulator name="LEMONADE">
-        <!-- Nintendo 3DS emulator Lemonade -->
+       <!-- Nintendo 3DS emulator Lemonade -->
         <rule type="androidpackage">
 	    <entry>org.lemonade.lemonade_emu.canary/org.citra.citra_emu.activities.EmulationActivity</entry>
 	    <entry>org.lemonade.lemonade_emu.canary/org.citra.citra_emu.ui.main.MainActivity</entry>
@@ -20,6 +20,12 @@
 	    <entry>org.lemonade.lemonade_emu.canary/org.lemonade.lemonade_emu.activities.EmulationActivity</entry>
             <entry>org.lemonade.lemonade_emu.canary/org.lemonade.lemonade_emu.ui.main.MainActivity</entry>
         </rule>
+    </emulator>
+    <emulator name="NOODS">
+       <!-- Nintendo DS emulator NooDS -->
+        <rule type="androidpackage">
+	    <entry>com.hydra.noods/.FileBrowser</entry>
+	</rule>
     </emulator>
     <emulator name="SKYLINE">
         <!-- Nintendo Switch emulator Skyline -->
