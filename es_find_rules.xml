@@ -21,6 +21,12 @@
             <entry>org.lemonade.lemonade_emu.canary/org.lemonade.lemonade_emu.ui.main.MainActivity</entry>
         </rule>
     </emulator>
+    <emulator name="MANDARINE">
+        <!-- Nintendo 3DS emulator Mandarine -->
+        <rule type="androidpackage">
+            <entry>io.github.mandarine3ds.mandarine/io.github.mandarine3ds.mandarine.activities.EmulationActivity</entry>
+        </rule>
+    </emulator>	
     <emulator name="NOODS">
        <!-- Nintendo DS emulator NooDS -->
         <rule type="androidpackage">
