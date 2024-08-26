@@ -45,11 +45,11 @@
     </emulator>
     <emulator name="SUYU">
 	<!-- Nintendo Switch emulator Suyu -->
-		<rule type="androidpackage">
-			<entry>org.suyu.suyu_emu/org.suyu.suyu_emu.activities.EmulationActivity</entry>
-			<entry>dev.suyu.suyu_emu.relWithDebInfo/dev.suyu.suyu_emu.activities.EmulationActivity</entry>
-			<entry>dev.suyu.suyu_emu/dev.suyu.suyu_emu.activities.EmulationActivity</entry>
-		</rule>
+	<rule type="androidpackage">
+	    <entry>org.suyu.suyu_emu/org.suyu.suyu_emu.activities.EmulationActivity</entry>
+	    <entry>dev.suyu.suyu_emu.relWithDebInfo/dev.suyu.suyu_emu.activities.EmulationActivity</entry>
+	    <entry>dev.suyu.suyu_emu/dev.suyu.suyu_emu.activities.EmulationActivity</entry>
+	</rule>
     </emulator>
 	<emulator name="WINLATOR-GLIBC">
         <!-- Winlator Cmod Glibc -->
