@@ -172,7 +172,7 @@
         <platform>switch</platform>
         <theme>switch</theme>
     </system>
-	<system>
+    <system>
         <name>windows</name>
         <fullname>Microsoft Windows</fullname>
         <path>/storage/emulated/0/Download/Winlator/Frontend</path>
