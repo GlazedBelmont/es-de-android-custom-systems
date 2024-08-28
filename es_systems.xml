@@ -172,4 +172,14 @@
         <platform>switch</platform>
         <theme>switch</theme>
     </system>
+    <system>
+        <name>windows</name>
+        <fullname>Microsoft Windows</fullname>
+        <path>/storage/emulated/0/Download/Winlator/Frontend</path>
+        <extension>.desktop</extension>
+        <command label="Winlator Cmod Glibc">%EMULATOR_WINLATOR-GLIBC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
+        <command label="Winlator Cmod Proot">%EMULATOR_WINLATOR-PROOT% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
+        <platform>pcwindows</platform>
+        <theme>windows</theme>
+    </system>
 </systemList>

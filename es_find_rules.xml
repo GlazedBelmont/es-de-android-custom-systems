@@ -51,4 +51,16 @@
 	    <entry>dev.suyu.suyu_emu/dev.suyu.suyu_emu.activities.EmulationActivity</entry>
 	</rule>
     </emulator>
+    <emulator name="WINLATOR-GLIBC">
+        <!-- Winlator Cmod Glibc -->
+        <rule type="androidpackage">
+            <entry>com.winlator/.XServerDisplayActivity</entry>
+        </rule>
+    </emulator>
+    <emulator name="WINLATOR-PROOT">
+        <!-- Winlator Cmod Proot -->
+        <rule type="androidpackage">
+            <entry>com.cmodded.winlator/com.winlator.XServerDisplayActivity</entry>
+        </rule>
+    </emulator>
 </ruleList>
