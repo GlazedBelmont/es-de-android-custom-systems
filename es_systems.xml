@@ -172,14 +172,13 @@
         <platform>switch</platform>
         <theme>switch</theme>
     </system>
-    <system>
-        <name>windows</name>
-        <fullname>Microsoft Windows</fullname>
-        <path>/storage/emulated/0/Download/Winlator/Frontend</path>
-        <extension>.desktop</extension>
-        <command label="Winlator Cmod Glibc">%EMULATOR_WINLATOR-GLIBC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
-        <command label="Winlator Cmod Proot">%EMULATOR_WINLATOR-PROOT% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
-        <platform>pcwindows</platform>
-        <theme>windows</theme>
+	<system>
+        <name>wiiu</name>
+        <fullname>Nintendo Wii U</fullname>
+        <path>%ROMPATH%\wiiu</path>
+        <extension>.elf .ELF .rpx .RPX .tmd .TMD .wua .WUA .wud .WUD .wuhb .WUHB .wux .WUX</extension>
+        <command label="Cemu (Standalone)">%EMULATOR_CEMU% %DATA%=%ROMSAF%</command>
+        <platform>wiiu</platform>
+        <theme>wiiu</theme>
     </system>
 </systemList>

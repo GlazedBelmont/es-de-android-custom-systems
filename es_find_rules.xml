@@ -51,16 +51,10 @@
 	    <entry>dev.suyu.suyu_emu/dev.suyu.suyu_emu.activities.EmulationActivity</entry>
 	</rule>
     </emulator>
-    <emulator name="WINLATOR-GLIBC">
-        <!-- Winlator Cmod Glibc -->
+    <emulator name="CEMU">
+        <!-- Nintendo Wii U emulator Cemu -->
         <rule type="androidpackage">
-            <entry>com.winlator/.XServerDisplayActivity</entry>
-        </rule>
-    </emulator>
-    <emulator name="WINLATOR-PROOT">
-        <!-- Winlator Cmod Proot -->
-        <rule type="androidpackage">
-            <entry>com.cmodded.winlator/com.winlator.XServerDisplayActivity</entry>
+            <entry>info.cemu.Cemu/info.cemu.Cemu.emulation.EmulationActivity</entry>
         </rule>
     </emulator>
 </ruleList>
