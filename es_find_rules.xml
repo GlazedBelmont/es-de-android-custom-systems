@@ -58,4 +58,16 @@
             <entry>info.cemu.Cemu/info.cemu.Cemu.emulation.EmulationActivity</entry>
         </rule>
     </emulator>
+	<emulator name="UZUY">
+        <!-- Nintendo Switch emulator Uzuy -->
+        <rule type="androidpackage">
+	    <entry>org.uzuy.uzuy_emu/.activities.EmulationActivity</entry>
+        </rule>
+    </emulator>
+    <emulator name="ZIUNX">
+        <!-- Nintendo Switch emulator Ziunx -->
+        <rule type="androidpackage">
+	    <entry>org.Ziunx.Ziunx_emu.ea/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+        </rule>
+    </emulator>
 </ruleList>

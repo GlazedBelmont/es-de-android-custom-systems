@@ -90,9 +90,9 @@
         <command label="Citra (Standalone)">%EMULATOR_CITRA% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
         <command label="Citra Canary (Standalone)">%EMULATOR_CITRA-CANARY% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
         <command label="Citra MMJ (Standalone)">%EMULATOR_CITRA-MMJ% %EXTRA_GamePath%=%ROM%</command>
-	<command label="Citra Enhanced (Standalone)">%EMULATOR_CITRA-ENHANCED% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
-	<command label="Lime3DS (Standalone)">%EMULATOR_LIME3DS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
-	<command label="Mandarine (Standalone)">%EMULATOR_MANDARINE% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
+	    <command label="Citra Enhanced (Standalone)">%EMULATOR_CITRA-ENHANCED% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
+	    <command label="Lime3DS (Standalone)">%EMULATOR_LIME3DS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
+	    <command label="Mandarine (Standalone)">%EMULATOR_MANDARINE% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
         <command label="Panda3DS (Standalone)">%EMULATOR_PANDA3DS% %DATA%=%ROMPROVIDER%</command>
         <platform>n3ds</platform>
         <theme>n3ds</theme>
@@ -109,7 +109,7 @@
         <command label="DeSmuME">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=desmume_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="DeSmuME 2015">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=desmume2015_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="DraStic (Standalone)">%EMULATOR_DRASTIC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
-	<command label="NooDS (Standalone)">%EMULATOR_NOODS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_LaunchPath%=%ROM%</command>
+	    <command label="NooDS (Standalone)">%EMULATOR_NOODS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_LaunchPath%=%ROM%</command>
         <platform>nds</platform>
         <theme>nds</theme>
     </system>
@@ -167,8 +167,10 @@
         <command label="Yuzu (Standalone)">%EMULATOR_YUZU% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
         <command label="Yuzu EA (Standalone)">%EMULATOR_YUZU-EA% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
         <command label="Skyline (Standalone)">%EMULATOR_SKYLINE% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
-	<command label="Sudachi (Standalone)">%EMULATOR_SUDACHI% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
-	<command label="Suyu (Standalone)">%EMULATOR_SUYU% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
+	    <command label="Sudachi (Standalone)">%EMULATOR_SUDACHI% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
+	    <command label="Suyu (Standalone)">%EMULATOR_SUYU% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
+		<command label="Uzuy (Standalone)">%EMULATOR_UZUY% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
+        <command label="Ziunx (Standalone)">%EMULATOR_ZIUNX% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
         <platform>switch</platform>
         <theme>switch</theme>
     </system>
