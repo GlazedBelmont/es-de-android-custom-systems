@@ -1,79 +1,79 @@
 <?xml version="1.0"?>
 <!-- This is the ES-DE find rules configuration file for Android -->
 <ruleList>
-    <emulator name="CITRA-ENHANCED">
-        <!-- Nintendo 3DS emulator Citra Enhanced -->
-        <rule type="androidpackage">
-	     <entry>org.gamerytb.citra.canary/org.citra.citra_emu.ui.main.MainActivity</entry>
-        </rule>
-    </emulator>	
+	<emulator name="CEMU">
+		<!-- Nintendo Wii U emulator Cemu -->
+		<rule type="androidpackage">
+			<entry>info.cemu.Cemu/info.cemu.Cemu.emulation.EmulationActivity</entry>
+		</rule>
+	</emulator>
+	<emulator name="CITRA-ENHANCED">
+		<!-- Nintendo 3DS emulator Citra Enhanced -->
+		<rule type="androidpackage">
+			<entry>org.gamerytb.citra.canary/org.citra.citra_emu.ui.main.MainActivity</entry>
+		</rule>
+	</emulator>	
 	<emulator name="CYTRUS">
-        <!-- Nintendo 3DS emulator Cytrus -->
-        <rule type="androidpackage">
-	     <entry>org.cytrus.cytrus_emu/.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>	
-    <emulator name="MANDARINE">
-        <!-- Nintendo 3DS emulator Mandarine -->
-        <rule type="androidpackage">
-            <entry>io.github.mandarine3ds.mandarine/io.github.mandarine3ds.mandarine.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>	
-    <emulator name="NOODS">
-       <!-- Nintendo DS emulator NooDS -->
-        <rule type="androidpackage">
-	    <entry>com.hydra.noods/.FileBrowser</entry>
-	</rule>
-    </emulator>
-    <emulator name="SKYLINE">
-        <!-- Nintendo Switch emulator Skyline -->
-        <rule type="androidpackage">
-            <entry>skyline.emu/emu.skyline.EmulationActivity</entry>
-        </rule>
-    </emulator>
-    <emulator name="SUDACHI">
-        <!-- Nintendo Switch emulator Sudachi -->
-        <rule type="androidpackage">
-	    <entry>org.sudachi.sudachi_emu/org.sudachi.sudachi_emu.activities.EmulationActivity</entry>
-            <entry>org.sudachi.sudachi_emu.ea/org.sudachi.sudachi_emu.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>
-    <emulator name="YUZU">
-        <!-- Nintendo Switch emulator Yuzu -->
-        <rule type="androidpackage">
-            <entry>org.yuzu.yuzu_emu/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>
-    <emulator name="YUZU-EA">
-        <!-- Nintendo Switch emulator Yuzu (Early Access) -->
-        <rule type="androidpackage">
-            <entry>org.yuzu.yuzu_emu.ea/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>
-    <emulator name="SUYU">
-	<!-- Nintendo Switch emulator Suyu -->
-	<rule type="androidpackage">
-	    <entry>org.suyu.suyu_emu/org.suyu.suyu_emu.activities.EmulationActivity</entry>
-	    <entry>dev.suyu.suyu_emu.relWithDebInfo/dev.suyu.suyu_emu.activities.EmulationActivity</entry>
-	    <entry>dev.suyu.suyu_emu/dev.suyu.suyu_emu.activities.EmulationActivity</entry>
-	</rule>
-    </emulator>
-    <emulator name="CEMU">
-        <!-- Nintendo Wii U emulator Cemu -->
-        <rule type="androidpackage">
-            <entry>info.cemu.Cemu/info.cemu.Cemu.emulation.EmulationActivity</entry>
-        </rule>
-    </emulator>
+		<!-- Nintendo 3DS emulator Cytrus -->
+		<rule type="androidpackage">
+			<entry>org.cytrus.cytrus_emu/.activities.EmulationActivity</entry>
+		</rule>
+		</emulator>	
+	<emulator name="MANDARINE">
+		<!-- Nintendo 3DS emulator Mandarine -->
+		<rule type="androidpackage">
+			<entry>io.github.mandarine3ds.mandarine/io.github.mandarine3ds.mandarine.activities.EmulationActivity</entry>
+		</rule>
+	</emulator>	
+	<emulator name="NOODS">
+		<!-- Nintendo DS emulator NooDS -->
+		<rule type="androidpackage">
+			<entry>com.hydra.noods/.FileBrowser</entry>
+		</rule>
+	</emulator>
+	<emulator name="SKYLINE">
+		<!-- Nintendo Switch emulator Skyline -->
+		<rule type="androidpackage">
+			<entry>skyline.emu/emu.skyline.EmulationActivity</entry>
+		</rule>
+	</emulator>
+	<emulator name="SUDACHI">
+		<!-- Nintendo Switch emulator Sudachi -->
+		<rule type="androidpackage">
+			<entry>org.sudachi.sudachi_emu/org.sudachi.sudachi_emu.activities.EmulationActivity</entry>
+			<entry>org.sudachi.sudachi_emu.ea/org.sudachi.sudachi_emu.activities.EmulationActivity</entry>
+		</rule>
+	</emulator>
+	<emulator name="SUYU">
+		<!-- Nintendo Switch emulator Suyu -->
+		<rule type="androidpackage">
+			<entry>org.suyu.suyu_emu/org.suyu.suyu_emu.activities.EmulationActivity</entry>
+			<entry>dev.suyu.suyu_emu.relWithDebInfo/dev.suyu.suyu_emu.activities.EmulationActivity</entry>
+			<entry>dev.suyu.suyu_emu/dev.suyu.suyu_emu.activities.EmulationActivity</entry>
+		</rule>
+	</emulator>
 	<emulator name="UZUY">
-        <!-- Nintendo Switch emulator Uzuy -->
-        <rule type="androidpackage">
-	    <entry>org.uzuy.uzuy_emu/.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>
-    <emulator name="ZIUNX">
-        <!-- Nintendo Switch emulator Ziunx -->
-        <rule type="androidpackage">
-	    <entry>org.Ziunx.Ziunx_emu.ea/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>
+		<!-- Nintendo Switch emulator Uzuy -->
+		<rule type="androidpackage">
+			<entry>org.uzuy.uzuy_emu/.activities.EmulationActivity</entry>
+		</rule>
+	</emulator>
+	<emulator name="YUZU">
+		<!-- Nintendo Switch emulator Yuzu -->
+		<rule type="androidpackage">
+			<entry>org.yuzu.yuzu_emu/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+		</rule>
+	</emulator>
+	<emulator name="YUZU-EA">
+		<!-- Nintendo Switch emulator Yuzu (Early Access) -->
+		<rule type="androidpackage">
+			<entry>org.yuzu.yuzu_emu.ea/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+		</rule>
+	</emulator>
+	<emulator name="ZIUNX">
+		<!-- Nintendo Switch emulator Ziunx -->
+		<rule type="androidpackage">
+			<entry>org.Ziunx.Ziunx_emu.ea/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+		</rule>
+	</emulator>
 </ruleList>
