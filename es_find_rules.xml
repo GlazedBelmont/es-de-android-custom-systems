@@ -7,6 +7,12 @@
 	     <entry>org.gamerytb.citra.canary/org.citra.citra_emu.ui.main.MainActivity</entry>
         </rule>
     </emulator>	
+	<emulator name="CYTRUS">
+        <!-- Nintendo 3DS emulator Cytrus -->
+        <rule type="androidpackage">
+	     <entry>org.cytrus.cytrus_emu/.activities.EmulationActivity</entry>
+        </rule>
+    </emulator>	
     <emulator name="MANDARINE">
         <!-- Nintendo 3DS emulator Mandarine -->
         <rule type="androidpackage">
