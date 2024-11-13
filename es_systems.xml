@@ -167,6 +167,7 @@
 		<extension>.nca .NCA .nro .NRO .nso .NSO .nsp .NSP .xci .XCI</extension>
 		<command label="Yuzu (Standalone)">%EMULATOR_YUZU% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
 		<command label="Yuzu EA (Standalone)">%EMULATOR_YUZU-EA% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
+		<command label="Citron (Standalone)">%EMULATOR_CITRON% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
 		<command label="Skyline (Standalone)">%EMULATOR_SKYLINE% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
 		<command label="Sudachi (Standalone)">%EMULATOR_SUDACHI% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
 		<command label="Suyu (Standalone)">%EMULATOR_SUYU% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>

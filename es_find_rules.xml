@@ -13,6 +13,12 @@
 			<entry>org.gamerytb.citra.canary/org.citra.citra_emu.ui.main.MainActivity</entry>
 		</rule>
 	</emulator>	
+	<emulator name="CITRON">
+		<!-- Nintendo Switch emulator Citron -->
+		<rule type="androidpackage">
+			<entry>org.citron.citron_emu/.activities.EmulationActivity</entry>
+		</rule>
+	</emulator>
 	<emulator name="CYTRUS">
 		<!-- Nintendo 3DS emulator Cytrus -->
 		<rule type="androidpackage">
