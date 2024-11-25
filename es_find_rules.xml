@@ -63,6 +63,7 @@
 		<rule type="androidpackage">
 			<entry>org.uzuy.uzuy_emu/.activities.EmulationActivity</entry>
 			<entry>org.uzuy.uzuy_emu.ea/org.uzuy.uzuy_emu.activities.EmulationActivity</entry>
+			<entry>org.uzuy.uzuy_emu.mmjr/org.uzuy.uzuy_emu.activities.EmulationActivity</entry>
 			<entry>com.antutu.ABenchMark.ea/org.uzuy.uzuy_emu.activities.EmulationActivity</entry>
 		</rule>
 	</emulator>
