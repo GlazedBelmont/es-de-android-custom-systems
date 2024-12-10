@@ -17,6 +17,7 @@
 		<!-- Nintendo Switch emulator Citron -->
 		<rule type="androidpackage">
 			<entry>org.citron.citron_emu/.activities.EmulationActivity</entry>
+			<entry>com.antutu.ABenchMark.ea/org.citron.citron_emu.activities.EmulationActivity</entry>
 		</rule>
 	</emulator>
 	<emulator name="CYTRUS">
