@@ -1,17 +1,6 @@
 <?xml version="1.0"?>
 <!-- This is the ES-DE game systems configuration file for Android -->
 <systemList>
-    <system>
-        <name>dreamcast</name>
-        <fullname>Sega Dreamcast</fullname>
-        <path>%ROMPATH%/dreamcast</path>
-        <extension>.cdi .CDI .chd .CHD .cue .CUE .dat .DAT .elf .ELF .gdi .GDI .iso .ISO .lst .LST .m3u .M3U .7z .7Z .zip .ZIP</extension>
-        <command label="Flycast">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=flycast_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-        <command label="Flycast (Standalone)">%EMULATOR_FLYCAST% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
-        <command label="Redream (Standalone)">%EMULATOR_REDREAM% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
-        <platform>dreamcast</platform>
-        <theme>dreamcast</theme>
-    </system>
 	<system>
 		<name>gbh</name>
 		<fullname>Nintendo Game Boy Hacks</fullname>
@@ -139,6 +128,17 @@
 		<command label="Nesoid (Standalone)">%EMULATOR_NESOID% %ACTION%=android.intent.action.VIEW %DATA%=%ROM%</command>
 		<platform>nes</platform>
 		<theme>nesh</theme>
+	</system>
+	<system>
+		<name>ps2</name>
+		<fullname>Sony PlayStation 2</fullname>
+		<path>%ROMPATH%/ps2</path>
+		<extension>.bin .BIN .chd .CHD .ciso .CISO .cso .CSO .dump .DUMP .elf .ELF .gz .GZ .m3u .M3U .mdf .MDF .img .IMG .iso .ISO .isz .ISZ .ngr .NRG</extension>
+		<command label="AetherSX2 (Standalone)">%EMULATOR_AETHERSX2% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.MAIN %EXTRA_bootPath%=%ROMSAF%</command>
+		<command label="AetherSX2-Turnip (Standalone)">%EMULATOR_AETHERSX2-TURNIP% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.MAIN %EXTRA_bootPath%=%ROMSAF%</command>
+		<command label="Play! (Standalone)">%EMULATOR_PLAY!% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
+		<platform>ps2</platform>
+		<theme>ps2</theme>
 	</system>
 	<system>
 		<name>snesh</name>

@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <!-- This is the ES-DE find rules configuration file for Android -->
 <ruleList>
+	<emulator name="AETHERSX2-TURNIP">
+		<!-- Sony PlayStation 2 emulator AetherSX2 -->
+		<rule type="androidpackage">
+			<entry>xyz.aethersx2.custom/xyz.aethersx2.android.EmulationActivity</entry>
+		</rule>
+	</emulator>
 	<emulator name="CEMU">
 		<!-- Nintendo Wii U emulator Cemu -->
 		<rule type="androidpackage">
