@@ -99,22 +99,6 @@
 		<theme>n3ds</theme>
 	</system>
 	<system>
-		<name>nds</name>
-		<fullname>Nintendo DS</fullname>
-		<path>%ROMPATH%/nds</path>
-		<extension>.app .APP .bin .BIN .nds .NDS .7z .7Z .zip .ZIP</extension>
-		<command label="melonDS DS">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=melondsds_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-		<command label="melonDS">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=melonds_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-		<command label="melonDS (Standalone)">%EMULATOR_MELONDS% %ACTION%=me.magnum.melonds.LAUNCH_ROM %EXTRA_uri%=%ROMSAF%</command>
-		<command label="melonDS Nightly (Standalone)">%EMULATOR_MELONDS-NIGHTLY% %ACTION%=me.magnum.melonds.nightly.LAUNCH_ROM %EXTRA_uri%=%ROMSAF%</command>
-		<command label="DeSmuME">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=desmume_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-		<command label="DeSmuME 2015">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=desmume2015_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-		<command label="DraStic (Standalone)">%EMULATOR_DRASTIC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
-		<command label="NooDS (Standalone)">%EMULATOR_NOODS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_LaunchPath%=%ROM%</command>
-		<platform>nds</platform>
-		<theme>nds</theme>
-	</system>
-	<system>
 		<name>nesh</name>
 		<fullname>Nintendo Entertainment System Hacks</fullname>
 		<path>%ROMPATH%/nesh</path>
@@ -186,14 +170,5 @@
 		<command label="Ziunx (Standalone)">%EMULATOR_ZIUNX% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
 		<platform>switch</platform>
 		<theme>switch</theme>
-	</system>
-	<system>
-		<name>wiiu</name>
-		<fullname>Nintendo Wii U</fullname>
-		<path>%ROMPATH%\wiiu</path>
-		<extension>.elf .ELF .rpx .RPX .tmd .TMD .wua .WUA .wud .WUD .wuhb .WUHB .wux .WUX</extension>
-		<command label="Cemu (Standalone)">%EMULATOR_CEMU% %DATA%=%ROMSAF%</command>
-		<platform>wiiu</platform>
-		<theme>wiiu</theme>
 	</system>
 </systemList>
