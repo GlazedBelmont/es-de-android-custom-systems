@@ -7,12 +7,6 @@
 			<entry>xyz.aethersx2.custom/xyz.aethersx2.android.EmulationActivity</entry>
 		</rule>
 	</emulator>
-	<emulator name="CEMU">
-		<!-- Nintendo Wii U emulator Cemu -->
-		<rule type="androidpackage">
-			<entry>info.cemu.Cemu/info.cemu.Cemu.emulation.EmulationActivity</entry>
-		</rule>
-	</emulator>
 	<emulator name="CITRA-ENHANCED">
 		<!-- Nintendo 3DS emulator Citra Enhanced -->
 		<rule type="androidpackage">
@@ -38,12 +32,6 @@
 			<entry>io.github.mandarine3ds.mandarine/io.github.mandarine3ds.mandarine.activities.EmulationActivity</entry>
 		</rule>
 	</emulator>	
-	<emulator name="NOODS">
-		<!-- Nintendo DS emulator NooDS -->
-		<rule type="androidpackage">
-			<entry>com.hydra.noods/.FileBrowser</entry>
-		</rule>
-	</emulator>
 	<emulator name="SKYLINE">
 		<!-- Nintendo Switch emulator Skyline -->
 		<rule type="androidpackage">
