@@ -32,6 +32,12 @@
 			<entry>io.github.mandarine3ds.mandarine/io.github.mandarine3ds.mandarine.activities.EmulationActivity</entry>
 		</rule>
 	</emulator>	
+	<emulator name="NYUSHU">
+		<!-- Nintendo Switch emulator Nyushu -->
+		<rule type="androidpackage">
+			<entry>com.andromeda.androbench2/org.suyu.suyu_emu.activities.EmulationActivity</entry>
+		</rule>
+	</emulator>
 	<emulator name="SKYLINE">
 		<!-- Nintendo Switch emulator Skyline -->
 		<rule type="androidpackage">
