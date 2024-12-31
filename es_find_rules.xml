@@ -25,7 +25,13 @@
 		<rule type="androidpackage">
 			<entry>org.cytrus.cytrus_emu/.activities.EmulationActivity</entry>
 		</rule>
-		</emulator>	
+	</emulator>
+	<emulator name="DOLPHIN-ENHANCED">
+        <!-- Nintendo GameCube and Wii emulator Dolphin Enhanced -->
+        <rule type="androidpackage">
+            <entry>org.mm.j/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
+        </rule>
+    </emulator>
 	<emulator name="MANDARINE">
 		<!-- Nintendo 3DS emulator Mandarine -->
 		<rule type="androidpackage">
@@ -38,6 +44,12 @@
 			<entry>com.andromeda.androbench2/org.suyu.suyu_emu.activities.EmulationActivity</entry>
 		</rule>
 	</emulator>
+	<emulator name="PIZZA-BOY-SC">
+        <!-- Sega multi-system emulator Pizza Boy SC -->
+        <rule type="androidpackage">
+            <entry>it.dbtecno.pizzaboyscpro/.MainActivity</entry>
+        </rule>
+    </emulator>
 	<emulator name="SKYLINE">
 		<!-- Nintendo Switch emulator Skyline -->
 		<rule type="androidpackage">
