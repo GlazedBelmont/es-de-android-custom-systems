@@ -7,6 +7,12 @@
 			<entry>xyz.aethersx2.custom/xyz.aethersx2.android.EmulationActivity</entry>
 		</rule>
 	</emulator>
+	<emulator name="BORKED3DS">
+        <!-- Nintendo 3DS emulator Borked3DS -->
+        <rule type="androidpackage">
+            <entry>io.github.borked3ds.android/.activities.EmulationActivity</entry>
+        </rule>
+    </emulator>
 	<emulator name="CITRA-ENHANCED">
 		<!-- Nintendo 3DS emulator Citra Enhanced -->
 		<rule type="androidpackage">

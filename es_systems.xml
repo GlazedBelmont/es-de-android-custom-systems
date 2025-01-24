@@ -177,6 +177,7 @@
 		<command label="Lime3DS (Standalone)">%EMULATOR_LIME3DS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
 		<command label="Mandarine (Standalone)">%EMULATOR_MANDARINE% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
 		<command label="Panda3DS (Standalone)">%EMULATOR_PANDA3DS% %DATA%=%ROMPROVIDER%</command>
+		<command label="Borked3DS (Standalone)">%EMULATOR_BORKED3DS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
 		<platform>n3ds</platform>
 		<theme>n3ds</theme>
 	</system>
