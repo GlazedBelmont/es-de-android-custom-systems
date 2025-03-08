@@ -9,7 +9,8 @@ Those 2 XMLs will add in the following systems
 - SNES Hacks (`snesh`)
 - Switch (`switch`)
 
-They are to be placed in `ES-DE/custom_systems` (Download them and copy/paste them into that directory, make sure you don't have them end as `.txt`, they _have_ to be `.xml`)
+They are to be placed in `ES-DE/custom_systems` (Download them and copy/paste them into that directory, make sure you don't have them end as `.txt`, they _have_ to be `.xml`).
+After adding the custom system files make sure to fully close ES-DE and restart it for the custom system files to load (not just rescan roms).
 
 
 Why the hacks folders? I come from JelOS and these folders were present, art-book-next-es-de also has support for those now. **This also means other themes may just display a generic image for hacks**
