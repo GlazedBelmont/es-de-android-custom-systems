@@ -13,6 +13,13 @@
             <entry>io.github.borked3ds.android/.activities.EmulationActivity</entry>
         </rule>
     </emulator>
+	<emulator name="CEMU">
+        <!-- Nintendo Wii U emulator Cemu -->
+        <rule type="androidpackage">
+            <entry>info.cemu.Cemu/info.cemu.Cemu.emulation.EmulationActivity</entry>
+			<entry>info.cemu.cemu/info.cemu.cemu.emulation.EmulationActivity</entry>
+        </rule>
+    </emulator>
 	<emulator name="CITRA-ENHANCED">
 		<!-- Nintendo 3DS emulator Citra Enhanced -->
 		<rule type="androidpackage">
