@@ -71,6 +71,12 @@
 			<entry>com.antutu.ABenchMark/org.uzuy.uzuy_emu.activities.EmulationActivity</entry>
 		</rule>
 	</emulator>
+	<emulator name="VITA3KZX">
+        <!-- Sony PlayStation Vita emulator Vita3K ZX -->
+        <rule type="androidpackage">
+            <entry>org.vita3k.emulator.ikhoeyZX/org.vita3k.emulator.Emulator</entry>
+        </rule>
+    </emulator>
 	<emulator name="YUZU">
 		<!-- Nintendo Switch emulator Yuzu -->
 		<rule type="androidpackage">

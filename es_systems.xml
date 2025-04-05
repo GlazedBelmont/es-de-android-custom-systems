@@ -159,6 +159,16 @@
 		<theme>ps2</theme>
 	</system>
 	<system>
+        <name>psvita</name>
+        <fullname>Sony PlayStation Vita</fullname>
+        <path>%ROMPATH%/psvita</path>
+        <extension>.psvita</extension>
+        <command label="Vita3K (Standalone)">%EMULATOR_VITA3K% %EXTRAARRAY_AppStartParameters%=-r,%INJECT%=%BASENAME%.psvita</command>
+        <command label="Vita3KZX (Standalone)">%EMULATOR_VITA3KZX% %EXTRAARRAY_AppStartParameters%=-r,%INJECT%=%BASENAME%.psvita</command>
+        <platform>psvita</platform>
+        <theme>psvita</theme>
+    </system>
+	<system>
 		<name>snesh</name>
 		<fullname>Nintendo SNES (Super Nintendo) Hacks</fullname>
 		<path>%ROMPATH%/snesh</path>
