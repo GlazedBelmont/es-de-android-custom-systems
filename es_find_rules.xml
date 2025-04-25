@@ -7,6 +7,12 @@
 			<entry>xyz.aethersx2.custom/xyz.aethersx2.android.EmulationActivity</entry>
 		</rule>
 	</emulator>
+	<emulator name="AZAHARPLUS">
+        <!-- Nintendo 3DS emulator AzaharPlus-coexist -->
+        <rule type="androidpackage">
+            <entry>io.github.azaharplus.android/org.citra.citra_emu.activities.EmulationActivity</entry>
+        </rule>
+    </emulator>
 	<emulator name="BORKED3DS">
         <!-- Nintendo 3DS emulator Borked3DS -->
         <rule type="androidpackage">
@@ -40,11 +46,29 @@
             <entry>org.mm.j/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
         </rule>
     </emulator>
+	<emulator name="DOLPHIN-PRIMEHACK">
+		<!-- Nintendo GameCube and Wii emulator Dolphin -->
+		<rule type="androidpackage">
+			<entry>org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
+		</rule>
+	</emulator>
+	<emulator name="EDEN">
+		<!-- Nintendo Switch emulator Eden -->
+		<rule type="androidpackage">			
+			<entry>com.antutu.ABenchMark/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+		</rule>
+	</emulator>
 	<emulator name="NYUSHU">
 		<!-- Nintendo Switch emulator Nyushu -->
 		<rule type="androidpackage">
 			<entry>com.andromeda.androbench2/org.suyu.suyu_emu.activities.EmulationActivity</entry>
 		</rule>
+	</emulator>
+	<emulator name="RPCSX">
+        <!-- Sony PlayStation 3 emulator RPCSX -->
+        <rule type="androidpackage">
+            <entry>net.rpcsx/.MainActivity</entry>
+        </rule>
 	</emulator>
 	<emulator name="SUDACHI">
 		<!-- Nintendo Switch emulator Sudachi -->
