@@ -66,7 +66,7 @@
         <fullname>Nintendo GameCube</fullname>
         <path>%ROMPATH%/gc</path>
         <extension>.ciso .CISO .dff .DFF .dol .DOL .elf .ELF .gcm .GCM .gcz .GCZ .iso .ISO .json .JSON .m3u .M3U .rvz .RVZ .tgc .TGC .wad .WAD .wbfs .WBFS .wia .WIA .7z .7Z .zip .ZIP</extension>
-        <command label="Dolphin">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores//data/data/%ANDROIDPACKAGE%/cores/dolphin_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="Dolphin">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/dolphin_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="Dolphin (Standalone)">%EMULATOR_DOLPHIN% %ACTION%=android.intent.action.MAIN %CATEGORY%=android.intent.category.LEANBACK_LAUNCHER %EXTRA_AutoStartFile%=%ROMSAF%</command>
         <command label="Dolphin MMJR (Standalone)">%EMULATOR_DOLPHIN-MMJR% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
         <command label="Dolphin MMJR2 (Standalone)">%EMULATOR_DOLPHIN-MMJR2% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
@@ -124,13 +124,13 @@
 		<fullname>Nintendo Entertainment System Hacks</fullname>
 		<path>%ROMPATH%/nesh</path>
 		<extension>.3dsen .3DSEN .fds .FDS .nes .NES .unf .UNF .unif .UNIF .7z .7Z .zip .ZIP</extension>
-		<command label="Mesen">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores//data/data/%ANDROIDPACKAGE%/cores/mesen_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-		<command label="Nestopia UE">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores//data/data/%ANDROIDPACKAGE%/cores/nestopia_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-		<command label="FCEUmm">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores//data/data/%ANDROIDPACKAGE%/cores/fceumm_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-		<command label="QuickNES">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores//data/data/%ANDROIDPACKAGE%/cores/quicknes_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-		<command label="NES.emu (Standalone)">%EMULATOR_NES-EMU% %DATA%=%ROMPROVIDER%</command>
-		<command label="iNES (Standalone)">%EMULATOR_INES% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
-		<command label="Nesoid (Standalone)">%EMULATOR_NESOID% %ACTION%=android.intent.action.VIEW %DATA%=%ROM%</command>
+		<command label="Mesen">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/mesen_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="Nestopia UE">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/nestopia_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="FCEUmm">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/fceumm_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="QuickNES">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/quicknes_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="NES.emu (Standalone)">%EMULATOR_NES-EMU% %DATA%=%ROMPROVIDER%</command>
+        <command label="iNES (Standalone)">%EMULATOR_INES% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
+        <command label="Nesoid (Standalone)">%EMULATOR_NESOID% %ACTION%=android.intent.action.VIEW %DATA%=%ROM%</command>
 		<platform>nes</platform>
 		<theme>nesh</theme>
 	</system>
@@ -223,7 +223,7 @@
         <fullname>Nintendo Wii</fullname>
         <path>%ROMPATH%/wii</path>
         <extension>.ciso .CISO .dff .DFF .dol .DOL .elf .ELF .gcm .GCM .gcz .GCZ .iso .ISO .json .JSON .m3u .M3U .rvz .RVZ .tgc .TGC .wad .WAD .wbfs .WBFS .wia .WIA .7z .7Z .zip .ZIP</extension>
-        <command label="Dolphin">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores//data/data/%ANDROIDPACKAGE%/cores/dolphin_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="Dolphin">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/dolphin_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="Dolphin (Standalone)">%EMULATOR_DOLPHIN% %ACTION%=android.intent.action.MAIN %CATEGORY%=android.intent.category.LEANBACK_LAUNCHER %EXTRA_AutoStartFile%=%ROMSAF%</command>
         <command label="Dolphin MMJR (Standalone)">%EMULATOR_DOLPHIN-MMJR% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
         <command label="Dolphin MMJR2 (Standalone)">%EMULATOR_DOLPHIN-MMJR2% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
