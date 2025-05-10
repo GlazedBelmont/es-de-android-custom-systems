@@ -55,6 +55,7 @@
 	<emulator name="EDEN">
 		<!-- Nintendo Switch emulator Eden -->
 		<rule type="androidpackage">			
+			<entry>dev.eden.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
 			<entry>com.antutu.ABenchMark/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
 		</rule>
 	</emulator>
