@@ -81,7 +81,7 @@
 	<emulator name="SUMI">
 		<!-- Nintendo Switch emulator Sumi -->
 		<rule type="androidpackage">
-			<entry>com.simi.SumiEmulator/org.sumi.sumi_emu.activities.EmulationActivity</entry>
+			<entry>com.sumi.SumiEmulator/org.sumi.sumi_emu.activities.EmulationActivity</entry>
 			<entry>com.antutu.ABenchMark/org.sumi.sumi_emu.activities.EmulationActivity</entry>
 		</rule>
 	</emulator>
