@@ -78,6 +78,13 @@
 			<entry>org.sudachi.sudachi_emu.ea/org.sudachi.sudachi_emu.activities.EmulationActivity</entry>
 		</rule>
 	</emulator>
+	<emulator name="SUMI">
+		<!-- Nintendo Switch emulator Sumi -->
+		<rule type="androidpackage">
+			<entry>com.simi.SumiEmulator/org.sumi.sumi_emu.activities.EmulationActivity</entry>
+			<entry>com.antutu.ABenchMark/org.sumi.sumi_emu.activities.EmulationActivity</entry>
+		</rule>
+	</emulator>
 	<emulator name="SUYU">
 		<!-- Nintendo Switch emulator Suyu -->
 		<rule type="androidpackage">

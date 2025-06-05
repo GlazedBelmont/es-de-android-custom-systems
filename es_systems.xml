@@ -212,6 +212,7 @@
 		<command label="Nyushu (Standalone)">%EMULATOR_NYUSHU% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
 		<command label="Skyline (Standalone)">%EMULATOR_SKYLINE% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
 		<command label="Sudachi (Standalone)">%EMULATOR_SUDACHI% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
+		<command label="Sumi (Standalone)">%EMULATOR_SUMI% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
 		<command label="Suyu (Standalone)">%EMULATOR_SUYU% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
 		<command label="Uzuy (Standalone)">%EMULATOR_UZUY% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
 		<command label="Ziunx (Standalone)">%EMULATOR_ZIUNX% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
