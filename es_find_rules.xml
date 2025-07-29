@@ -110,6 +110,12 @@
             <entry>org.vita3k.emulator.ikhoeyZX/org.vita3k.emulator.Emulator</entry>
         </rule>
     </emulator>
+	<emulator name="WINLATOR-CMOD">
+        <!-- Microsoft Windows emulator Winlator Cmod -->
+        <rule type="androidpackage">
+            <entry>com.winlator.cmod/.XServerDisplayActivity</entry>
+        </rule>
+    </emulator>
 	<emulator name="YUZU">
 		<!-- Nintendo Switch emulator Yuzu -->
 		<rule type="androidpackage">
