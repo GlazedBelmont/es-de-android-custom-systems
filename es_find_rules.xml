@@ -60,6 +60,12 @@
 			<entry>com.antutu.ABenchMark/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
 		</rule>
 	</emulator>
+	<emulator name="MELONDS-FORK">
+        <!-- Nintendo DS and DSi emulator melonDS (Nightly build) -->
+        <rule type="androidpackage">
+            <entry>me.magnum.melonds.dev/me.magnum.melonds.ui.emulator.EmulatorActivity</entry>
+        </rule>
+	</emulator>
 	<emulator name="NYUSHU">
 		<!-- Nintendo Switch emulator Nyushu -->
 		<rule type="androidpackage">
@@ -115,6 +121,12 @@
         <rule type="androidpackage">
             <entry>com.winlator.cmod/.XServerDisplayActivity</entry>
         </rule>
+    </emulator>
+	<emulator name="XBPLAY">
+		<!-- Xbox Game Streaming XBPlay -->
+		<rule type="androidpackage">
+			<entry>com.studio08.xbgamestream/com.studio08.xbgamestream.PWAMainMenuActivity</entry>
+		</rule>
     </emulator>
 	<emulator name="YUZU">
 		<!-- Nintendo Switch emulator Yuzu -->
