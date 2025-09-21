@@ -253,6 +253,16 @@
         <theme>wii</theme>
     </system>
 	<system>
+        <name>wiiu</name>
+        <fullname>Nintendo Wii U</fullname>
+        <path>%ROMPATH%/wiiu</path>
+        <extension>.elf .ELF .rpx .RPX .tmd .TMD .wua .WUA .wud .WUD .wuhb .WUHB .wux .WUX</extension>
+        <command label="Cemu (Standalone)">%EMULATOR_CEMU% %DATA%=%ROMSAF%</command>
+		<command label="Cemu Fork (Standalone)">%EMULATOR_CEMU-FORK% %DATA%=%ROMSAF%</command>
+        <platform>wiiu</platform>
+        <theme>wiiu</theme>
+    </system>
+	<system>
         <name>windows</name>
         <fullname>Microsoft Windows</fullname>
         <path>%ROMPATH%/windows</path>
