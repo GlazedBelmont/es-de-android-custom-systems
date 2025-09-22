@@ -67,6 +67,12 @@
 			<entry>dev.legacy.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
 		</rule>
 	</emulator>
+	<emulator name="LINKBOY">
+        <!-- Nintendo Game Boy, Game Boy Color and Game Boy Advance emulator Linkboy -->
+        <rule type="androidpackage">
+            <entry>com.pixelrespawn.linkboy/.EmulatorActivity</entry>
+        </rule>
+    </emulator>
 	<emulator name="MELONDS-FORK">
         <!-- Nintendo DS and DSi emulator melonDS (Nightly build) -->
         <rule type="androidpackage">
