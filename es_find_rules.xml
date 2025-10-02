@@ -13,6 +13,12 @@
             <entry>io.github.azaharplus.android/org.citra.citra_emu.activities.EmulationActivity</entry>
         </rule>
     </emulator>
+	<emulator name="BENJI-SC">
+		<!-- Nintendo Switch emulator Benji-SC -->
+		<rule type="androidpackage">
+			<entry>org.kenjinx.android/.MainActivity</entry>
+		</rule>
+	</emulator>
 	<emulator name="BORKED3DS">
         <!-- Nintendo 3DS emulator Borked3DS -->
         <rule type="androidpackage">
