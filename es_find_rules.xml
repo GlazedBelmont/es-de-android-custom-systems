@@ -16,7 +16,7 @@
 	<emulator name="BENJI-SC">
 		<!-- Nintendo Switch emulator Benji-SC -->
 		<rule type="androidpackage">
-			<entry>org.kenjinx.android/.MainActivity</entry>
+			<entry>org.benjisc.android/org.kenjinx.android.MainActivity</entry>
 		</rule>
 	</emulator>
 	<emulator name="BORKED3DS">
@@ -79,6 +79,12 @@
 			<entry>dev.eden.eden_emulator.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
 			<entry>dev.eden.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
 			<entry>com.miHoYo.Yuanshen/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+		</rule>
+	</emulator>
+	<emulator name="KENJI-NX">
+		<!-- Nintendo Switch emulator Kenji-NX -->
+		<rule type="androidpackage">
+			<entry>org.kenjinx.android/.MainActivity</entry>
 		</rule>
 	</emulator>
 	<emulator name="LINKBOY">
