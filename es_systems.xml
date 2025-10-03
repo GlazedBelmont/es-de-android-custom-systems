@@ -295,7 +295,8 @@
 		<command label="Benji-SC (Standalone)">%EMULATOR_BENJI-SC% %ACTION%=org.kenjinx.android.LAUNCH_GAME %EXTRA_bootPath%=%ROMSAF%</command>
 		<command label="Citron (Standalone)">%EMULATOR_CITRON% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
 		<command label="Eden (Standalone)">%EMULATOR_EDEN% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
-		<command label="Eden Nightly (Standalone)">%EMULATOR_EDEN-NIGHTLY% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
+		<command label="Eden Legacy (Standalone)">%EMULATOR_EDEN-LEGACY% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
+        <command label="Eden Nightly (Standalone)">%EMULATOR_EDEN-NIGHTLY% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
 		<command label="Kenji-NX (Standalone)">%EMULATOR_KENJI-NX% %ACTION%=org.kenjinx.android.LAUNCH_GAME %EXTRA_bootPath%=%ROMSAF%</command>
 		<command label="Nyushu (Standalone)">%EMULATOR_NYUSHU% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
 		<command label="Skyline (Standalone)">%EMULATOR_SKYLINE% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>

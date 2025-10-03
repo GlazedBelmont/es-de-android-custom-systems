@@ -73,6 +73,13 @@
 			<entry>dev.legacy.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
 		</rule>
 	</emulator>
+    <emulator name="EDEN-LEGACY">
+		<!-- Nintendo Switch emulator Eden -->
+		<rule type="androidpackage">			
+			<entry>dev.legacy.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+			<entry>com.miHoYo.Yuanshen/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+		</rule>
+	</emulator>
 	<emulator name="EDEN-NIGHTLY">
 		<!-- Nintendo Switch emulator Eden -->
 		<rule type="androidpackage">			
