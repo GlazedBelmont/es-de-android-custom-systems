@@ -286,6 +286,15 @@
 		<theme>snes-msu1</theme>
 	</system>
 	<system>
+        <name>steam</name>
+        <fullname>Valve Steam</fullname>
+        <path>%ROMPATH%/steam</path>
+        <extension>.steam .STEAM</extension>
+        <command label="GameHub Lite (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_steamAppId%=%INJECT%=%ROM%</command>
+        <platform>steam</platform>
+        <theme>steam</theme>
+    </system>
+	<system>
 		<name>switch</name>
 		<fullname>Nintendo Switch</fullname>
 		<path>%ROMPATH%/switch</path>

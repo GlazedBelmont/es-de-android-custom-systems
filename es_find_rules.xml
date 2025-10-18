@@ -82,6 +82,12 @@
 			<entry>com.miHoYo.Yuanshen/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
 		</rule>
 	</emulator>
+	<emulator name="GAMEHUB-LITE">
+        <!-- Steam client GameHub Lite -->
+        <rule type="androidpackage">
+            <entry>gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity</entry>
+        </rule>
+    </emulator>
 	<emulator name="KENJI-NX">
 		<!-- Nintendo Switch emulator Kenji-NX -->
 		<rule type="androidpackage">
