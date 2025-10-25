@@ -234,11 +234,12 @@
         <name>ps3</name>
         <fullname>Sony PlayStation 3</fullname>
         <path>%ROMPATH%/ps3</path>
-        <extension>.ps3 .PS3 .7z .7Z .zip .ZIP</extension>
-        <command>%EMULATOR_RPCSX%</command>
+        <extension>.iso .ISO .ps3 .PS3</extension>
+        <command label="aPS3e ISO (Standalone)">%EMULATOR_APS3E% %ACTION%=aenu.intent.action.APS3E %EXTRA_iso_uri%=%ROMSAF%</command>
+		<command label="aPS3e Directory (Standalone)">%EMULATOR_APS3E% %ACTION%=aenu.intent.action.APS3E %EXTRA_game_dir%=%ROM%</command>
         <platform>ps3</platform>
         <theme>ps3</theme>
-    </system>
+	</system>
     <system>
         <name>psvita</name>
         <fullname>Sony PlayStation Vita</fullname>

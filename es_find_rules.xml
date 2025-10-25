@@ -7,6 +7,12 @@
             <entry>xyz.aethersx2.custom/xyz.aethersx2.android.EmulationActivity</entry>
         </rule>
     </emulator>
+	<emulator name="APS3E">
+        <!-- Sony PlayStation 3 emulator aPS3e -->
+        <rule type="androidpackage">
+            <entry>aenu.aps3e/aenu.aps3e.EmulatorActivity</entry>
+        </rule>
+    </emulator>
     <emulator name="AZAHARPLUS">
         <!-- Nintendo 3DS emulator AzaharPlus-coexist -->
         <rule type="androidpackage">
