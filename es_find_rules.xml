@@ -7,25 +7,6 @@
             <entry>xyz.aethersx2.custom/xyz.aethersx2.android.EmulationActivity</entry>
         </rule>
     </emulator>
-	<emulator name="APS3E">
-        <!-- Sony PlayStation 3 emulator aPS3e -->
-        <rule type="androidpackage">
-            <entry>aenu.aps3e/aenu.aps3e.EmulatorActivity</entry>
-        </rule>
-    </emulator>
-	<emulator name="ARMSX2">
-        <!-- Sony PlayStation 2 emulator ARMSX2 -->
-        <rule type="androidpackage">
-            <entry>come.nanodata.armsx2/kr.co.iefriends.pcsx2.MainActivity</entry>
-            <entry>come.nanodata.armsx2.debug/kr.co.iefriends.pcsx2.MainActivity</entry>
-        </rule>
-    </emulator>
-    <emulator name="AZAHARPLUS">
-        <!-- Nintendo 3DS emulator AzaharPlus-coexist -->
-        <rule type="androidpackage">
-            <entry>io.github.azaharplus.android/org.citra.citra_emu.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>
     <emulator name="BENJI-SC">
         <!-- Nintendo Switch emulator Benji-SC -->
         <rule type="androidpackage">
@@ -95,26 +76,6 @@
             <entry>com.miHoYo.Yuanshen/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
         </rule>
     </emulator>
-    <emulator name="GAMEHUB-LITE">
-        <!-- Steam client GameHub Lite -->
-        <rule type="androidpackage">
-            <entry>gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity</entry>
-            <entry>com.antutu.ABenchMark/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity</entry>
-            <entry>com.tencent.ig/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity</entry>
-        </rule>
-    </emulator>
-    <emulator name="KENJI-NX">
-        <!-- Nintendo Switch emulator Kenji-NX -->
-        <rule type="androidpackage">
-            <entry>org.kenjinx.android/.MainActivity</entry>
-        </rule>
-    </emulator>
-    <emulator name="LINKBOY">
-        <!-- Nintendo Game Boy, Game Boy Color and Game Boy Advance emulator Linkboy -->
-        <rule type="androidpackage">
-            <entry>com.pixelrespawn.linkboy/.EmulatorActivity</entry>
-        </rule>
-    </emulator>
     <emulator name="MELONDS-FORK">
         <!-- Nintendo DS and DSi emulator melonDS (Nightly build) -->
         <rule type="androidpackage">
@@ -125,12 +86,6 @@
         <!-- Nintendo Switch emulator Nyushu -->
         <rule type="androidpackage">
             <entry>com.andromeda.androbench2/org.suyu.suyu_emu.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>
-    <emulator name="RPCSX">
-        <!-- Sony PlayStation 3 emulator RPCSX -->
-        <rule type="androidpackage">
-            <entry>net.rpcsx/.MainActivity</entry>
         </rule>
     </emulator>
     <emulator name="SUDACHI">
@@ -169,12 +124,6 @@
         <!-- Sony PlayStation Vita emulator Vita3K ZX -->
         <rule type="androidpackage">
             <entry>org.vita3k.emulator.ikhoeyZX/org.vita3k.emulator.Emulator</entry>
-        </rule>
-    </emulator>
-    <emulator name="WINLATOR-CMOD">
-        <!-- Microsoft Windows emulator Winlator Cmod -->
-        <rule type="androidpackage">
-            <entry>com.winlator.cmod/.XServerDisplayActivity</entry>
         </rule>
     </emulator>
 	<emulator name="WINLATOR-LUDASHI">
