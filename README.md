@@ -7,6 +7,7 @@ Those 2 XMLs will add in the following systems
 - Genesis Hacks (`genh`)
 - NES Hacks (`nesh`)
 - SNES Hacks (`snesh`)
+- N64 Hacks (`n64h`)
 - Switch (`switch`)
 
 They are to be placed in `ES-DE/custom_systems` (Download them and copy/paste them into that directory, make sure you don't have them end as `.txt`, they _have_ to be `.xml`).
