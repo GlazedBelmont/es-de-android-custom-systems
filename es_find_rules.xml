@@ -8,7 +8,7 @@
         </rule>
     </emulator>
 	<emulator name="AX360E">
-        <!-- Sony PlayStation 3 emulator aPS3e -->
+        <!-- Microsoft Xbox 360 emulator aX360e -->
         <rule type="androidpackage">
             <entry>aenu.ax360e.premium/aenu.ax360e.EmulatorActivity</entry>
             <entry>aenu.ax360e.free/aenu.ax360e.EmulatorActivity</entry>
