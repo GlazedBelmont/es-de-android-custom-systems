@@ -10,7 +10,7 @@
 	<emulator name="AX360E">
         <!-- Microsoft Xbox 360 emulator aX360e -->
         <rule type="androidpackage">
-            <entry>aenu.ax360e.premium/aenu.ax360e.EmulatorActivity</entry>
+            <entry>aenu.ax360e/aenu.ax360e.EmulatorActivity</entry>
             <entry>aenu.ax360e.free/aenu.ax360e.EmulatorActivity</entry>
         </rule>
     </emulator>
