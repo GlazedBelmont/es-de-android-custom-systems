@@ -339,6 +339,15 @@
         <theme>windows</theme>
     </system>
     <system>
+        <name>xbox360</name>
+        <fullname>Microsoft Xbox 360</fullname>
+        <path>%ROMPATH%/xbox360</path>
+        <extension>.iso .ISO .xbla .XBLA</extension>
+		<command label="aX360e (Standalone)">%EMULATOR_AX360E% %ACTION%=aenu.intent.action.AX360E %EXTRA_game_uri%=%ROMSAF% </command>
+        <platform>xbox360</platform>
+        <theme>xbox360</theme>
+    </system>
+	<system>
         <name>xboxgamepass</name>
         <fullname>Xbox Game Pass Streaming</fullname>
         <path>%ROMPATH%/XBPlay2</path>

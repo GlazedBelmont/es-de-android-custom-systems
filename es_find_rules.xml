@@ -7,6 +7,13 @@
             <entry>xyz.aethersx2.custom/xyz.aethersx2.android.EmulationActivity</entry>
         </rule>
     </emulator>
+	<emulator name="AX360E">
+        <!-- Sony PlayStation 3 emulator aPS3e -->
+        <rule type="androidpackage">
+            <entry>aenu.ax360e.premium/aenu.ax360e.EmulatorActivity</entry>
+            <entry>aenu.ax360e.free/aenu.ax360e.EmulatorActivity</entry>
+        </rule>
+    </emulator>
     <emulator name="BENJI-SC">
         <!-- Nintendo Switch emulator Benji-SC -->
         <rule type="androidpackage">
@@ -62,9 +69,9 @@
         <!-- Nintendo Switch emulator Eden -->
         <rule type="androidpackage">
             <entry>dev.eden.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+			<entry>dev.legacy.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
             <entry>com.miHoYo.Yuanshen/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
             <entry>com.antutu.ABenchMark/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-            <entry>dev.legacy.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
         </rule>
     </emulator>
     <emulator name="EDEN-NIGHTLY">
@@ -74,6 +81,7 @@
             <entry>dev.eden.eden_emulator.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
             <entry>dev.eden.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
             <entry>com.miHoYo.Yuanshen/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+			<entry>dev.legacy.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
         </rule>
     </emulator>
     <emulator name="MELONDS-FORK">
