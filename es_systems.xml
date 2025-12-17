@@ -342,7 +342,7 @@
         <name>xbox360</name>
         <fullname>Microsoft Xbox 360</fullname>
         <path>%ROMPATH%/xbox360</path>
-        <extension>.iso .ISO .xbla .XBLA</extension>
+        <extension>.bin .BIN .god .GOD .iso .ISO .xbla .XBLA .xex .XEX .zar .ZAR</extension>
 		<command label="aX360e (Standalone)">%EMULATOR_AX360E% %ACTION%=aenu.intent.action.AX360E %EXTRA_game_uri%=%ROMSAF% </command>
         <platform>xbox360</platform>
         <theme>xbox360</theme>
