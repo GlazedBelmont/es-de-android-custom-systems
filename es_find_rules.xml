@@ -96,6 +96,12 @@
             <entry>com.andromeda.androbench2/org.suyu.suyu_emu.activities.EmulationActivity</entry>
         </rule>
     </emulator>
+	<emulator name="PICO8-FRONTEND">
+        <!-- PICO-8 Fantasy Console game engine Infinity -->
+        <rule type="androidpackage">
+            <entry>io.wip.pico8/com.godot.game.GodotApp</entry>
+        </rule>
+    </emulator>
     <emulator name="SUDACHI">
         <!-- Nintendo Switch emulator Sudachi -->
         <rule type="androidpackage">

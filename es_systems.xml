@@ -218,6 +218,18 @@
         <command label="Nesoid (Standalone)">%EMULATOR_NESOID% %ACTION%=android.intent.action.VIEW %DATA%=%ROM%</command>
         <platform>nes</platform>
         <theme>nesh</theme>
+    </system>	
+	<system>
+        <name>pico8</name>
+        <fullname>PICO-8 Fantasy Console</fullname>
+        <path>%ROMPATH%/pico8</path>
+        <extension>.p8 .P8 .png .PNG</extension>
+        <command label="Fake-08">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/fake08_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="Retro8">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/retro8_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="Infinity (Standalone)">%EMULATOR_INFINITY% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
+        <command label="Pico8 (Standalone)">%EMULATOR_PICO8-FRONTEND% ++ --%DATA%=%ROMSAF%</command>
+        <platform>pico8</platform>
+        <theme>pico8</theme>
     </system>
     <system>
         <name>ps2</name>
