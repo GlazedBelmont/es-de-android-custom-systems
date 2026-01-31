@@ -116,6 +116,12 @@
             <entry>com.antutu.ABenchMark/org.sumi.sumi_emu.activities.EmulationActivity</entry>
         </rule>
     </emulator>
+    <emulator name="SUPER3">
+        <!-- Sega Model 3 emulator SUPER3 -->
+        <rule type="androidpackage">
+            <entry>com.izzy2lost.super3/com.izzy2lost.super3.MainActivity</entry>
+        </rule>
+    </emulator>
     <emulator name="SUYU">
         <!-- Nintendo Switch emulator Suyu -->
         <rule type="androidpackage">

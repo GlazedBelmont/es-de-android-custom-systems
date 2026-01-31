@@ -154,6 +154,15 @@
         <platform>genesis</platform>
         <theme>genh</theme>
     </system>
+	<system>
+        <name>model3</name>
+        <fullname>Sega Model 3</fullname>
+        <path>%ROMPATH%/model3</path>
+        <extension>.zip .ZIP</extension>
+        <command label="SUPER3 (Standalone)">%EMULATOR_SUPER3% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
+        <platform>arcade</platform>
+        <theme>model3</theme>
+    </system>
     <system>
         <name>msu-md</name>
         <fullname>Sega Mega Drive MSU</fullname>
