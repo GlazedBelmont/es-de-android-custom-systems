@@ -71,7 +71,6 @@
             <entry>dev.eden.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
 			<entry>dev.legacy.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
             <entry>com.miHoYo.Yuanshen/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-            <entry>com.antutu.ABenchMark/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
         </rule>
     </emulator>
     <emulator name="EDEN-NIGHTLY">
