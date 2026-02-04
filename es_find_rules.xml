@@ -96,6 +96,7 @@
 	<emulator name="PICO8-FRONTEND">
         <!-- PICO-8 Fantasy Console game engine Infinity -->
         <rule type="androidpackage">
+			<entry>io.wip.pico8/com.godot.game.GodotAppLauncher</entry>
             <entry>io.wip.pico8/com.godot.game.GodotApp</entry>
         </rule>
     </emulator>
