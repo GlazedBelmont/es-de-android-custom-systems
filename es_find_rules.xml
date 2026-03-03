@@ -62,7 +62,8 @@
     <emulator name="DOLPHIN-PRIMEHACK">
         <!-- Nintendo GameCube and Wii emulator Dolphin -->
         <rule type="androidpackage">
-            <entry>org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
+            <entry>org.dolphinemu.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
+			<entry>org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
         </rule>
     </emulator>
     <emulator name="EDEN">
