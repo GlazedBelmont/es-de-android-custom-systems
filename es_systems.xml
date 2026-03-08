@@ -168,7 +168,7 @@
         <name>gog</name>
         <fullname>GOG.com</fullname>
         <path>%ROMPATH%/gog</path>
-        <extension>.gog .pcgame</extension>
+        <extension>.gog</extension>
 		<command label="GameNative GOG (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=GOG %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
         <platform>android</platform>
         <theme>gog</theme>
@@ -367,7 +367,7 @@
         <name>windows</name>
         <fullname>Microsoft Windows</fullname>
         <path>%ROMPATH%/windows</path>
-        <extension>.desktop .steam</extension>
+        <extension>.desktop .epic .gog .pcgame .steam</extension>
         <command label="Winlator Cmod (Standalone)">%EMULATOR_WINLATOR-CMOD% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
 		<command label="Winlator-Ludashi (Standalone)">%EMULATOR_WINLATOR-LUDASHI% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
 		<command label="Winlator Cmod Glibc (Standalone)">%EMULATOR_WINLATOR-GLIBC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
