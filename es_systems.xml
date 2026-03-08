@@ -2,6 +2,16 @@
 <!-- This is the ES-DE game systems configuration file for Android -->
 <systemList>
     <system>
+        <name>epic</name>
+        <fullname>Epic Games Store</fullname>
+        <path>%ROMPATH%/epic</path>
+        <extension>.app .APP .epic</extension>
+        <command label="Android Game">%ANDROIDAPP%=%FILEINJECT%</command>
+		<command label="GameNative Epic (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=EPIC %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+        <platform>android</platform>
+        <theme>epic</theme>
+    </system>
+	<system>
         <name>gb</name>
         <fullname>Nintendo Game Boy</fullname>
         <path>%ROMPATH%/gb</path>
@@ -153,6 +163,15 @@
         <command label="Pizza Boy SC (Standalone)">%EMULATOR_PIZZA-BOY-SC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_rom_uri%=%ROMSAF%</command>
         <platform>genesis</platform>
         <theme>genh</theme>
+    </system>
+	<system>
+        <name>gog</name>
+        <fullname>GOG.com</fullname>
+        <path>%ROMPATH%/gog</path>
+        <extension>.gog .pcgame</extension>
+		<command label="GameNative GOG (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=GOG %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+        <platform>android</platform>
+        <theme>gog</theme>
     </system>
 	<system>
         <name>model3</name>
@@ -353,7 +372,11 @@
 		<command label="Winlator-Ludashi (Standalone)">%EMULATOR_WINLATOR-LUDASHI% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
 		<command label="Winlator Cmod Glibc (Standalone)">%EMULATOR_WINLATOR-GLIBC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
         <command label="Winlator Cmod PRoot (Standalone)">%EMULATOR_WINLATOR-PROOT% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
-		<command label="GameNative (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+		<command label="GameNative Steam (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+		<command label="GameNative Custom Game (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=CUSTOM_GAME %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+		<command label="GameNative EPIC (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=EPIC %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+		<command label="GameNative GOG (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=GOG %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+        <platform>pcwindows</platform>
 		<command label="GameHub Lite (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_steamAppId%=%INJECT%=%ROM%</command>
 		<command label="GameHub Lite Local (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_localGameId%=%INJECT%=%ROM%</command>
         <platform>pcwindows</platform>
