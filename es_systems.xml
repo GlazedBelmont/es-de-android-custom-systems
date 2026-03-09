@@ -183,6 +183,15 @@
         <theme>model3</theme>
     </system>
     <system>
+        <name>moonlight</name>
+        <fullname>Moonlight Game Streaming</fullname>
+        <path>%ROMPATH%/moonlight</path>
+        <extension>.art</extension>
+		<command label="Artemis">%EMULATOR_Artemis% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
+        <platform>moonlight</platform>
+        <theme>moonlight</theme>
+    </system>
+    <system>
         <name>msu-md</name>
         <fullname>Sega Mega Drive MSU</fullname>
         <path>%ROMPATH%/msu-md</path>

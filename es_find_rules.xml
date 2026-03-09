@@ -14,6 +14,11 @@
             <entry>aenu.ax360e.free/aenu.ax360e.EmulatorActivity</entry>
         </rule>
     </emulator>
+    <emulator name="Artemis">
+        <rule type="androidpackage">
+            <entry>com.limelight.noir/com.limelight.ShortcutTrampoline</entry>
+        </rule>
+    </emulator>
     <emulator name="BENJI-SC">
         <!-- Nintendo Switch emulator Benji-SC -->
         <rule type="androidpackage">
