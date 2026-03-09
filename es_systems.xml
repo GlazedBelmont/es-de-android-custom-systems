@@ -400,4 +400,23 @@
         <platform>xbox</platform>
         <theme>xbox</theme>
     </system>
+	<system>
+        <name>dreamcast</name>
+        <fullname>Sega Dreamcast</fullname>
+        <path>%ROMPATH%/dreamcast</path>
+        <extension>.cdi .CDI .chd .CHD .cue .CUE .gdi .GDI .m3u .M3U .zip .ZIP .7z .7Z</extension>
+        <command label="Flycast (Standalone)">%EMULATOR_FLYCAST% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
+        <command label="Redream (Standalone)">%EMULATOR_REDREAM% %DATA%=%ROMSAF%</command>
+        <platform>dreamcast</platform>
+        <theme>dreamcast</theme>
+    </system>
+    <system>
+        <name>saturn</name>
+        <fullname>Sega Saturn</fullname>
+        <path>%ROMPATH%/saturn</path>
+        <extension>.bin .BIN .ccd .CCD .chd .CHD .cue .CUE .img .IMG .iso .ISO .mds .MDS .m3u .M3U .zip .ZIP .7z .7Z</extension>
+        <command label="Yabause">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/yabause_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <platform>saturn</platform>
+        <theme>saturn</theme>
+    </system>
 </systemList>
