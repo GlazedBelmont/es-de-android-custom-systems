@@ -14,6 +14,13 @@
             <entry>aenu.ax360e.free/aenu.ax360e.EmulatorActivity</entry>
         </rule>
     </emulator>
+	<emulator name="AZAHAR">
+        <!-- Nintendo 3DS emulator Azahar -->
+        <rule type="androidpackage">
+            <entry>io.github.lime3ds.android/org.citra.citra_emu.activities.EmulationActivity</entry>
+			<entry>org.azahar_emu.azahar/org.citra.citra_emu.activities.EmulationActivity</entry>
+        </rule>
+    </emulator>
     <emulator name="BENJI-SC">
         <!-- Nintendo Switch emulator Benji-SC -->
         <rule type="androidpackage">
