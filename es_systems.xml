@@ -222,7 +222,7 @@
         <command label="melonDS">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/melonds_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="melonDS (Standalone)">%EMULATOR_MELONDS% %ACTION%=me.magnum.melonds.LAUNCH_ROM %EXTRA_uri%=%ROMSAF%</command>
         <command label="melonDS Nightly (Standalone)">%EMULATOR_MELONDS-NIGHTLY% %ACTION%=me.magnum.melonds.nightly.LAUNCH_ROM %EXTRA_uri%=%ROMSAF%</command>
-        <command label="melonDS Fork (Standalone)">%EMULATOR_MELONDS-FORK% %ACTION%=me.magnum.melonds.dev.LAUNCH_ROM %EXTRA_uri%=%ROMSAF%</command>
+        <command label="melonDualDS (Standalone)">%EMULATOR_MELONDUALDS% %ACTION%=me.magnum.melonds.dev.LAUNCH_ROM %EXTRA_uri%=%ROMSAF%</command>
         <command label="DeSmuME">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/desmume_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="DeSmuME 2015">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/desmume2015_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="NooDS">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/noods_libretro_android.so %EXTRA_ROM%=%ROM%</command>
