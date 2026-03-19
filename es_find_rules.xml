@@ -93,6 +93,7 @@
         <!-- Nintendo DS and DSi emulator melonDS (Nightly build) -->
         <rule type="androidpackage">
 			<entry>me.magnum.melondualds/me.magnum.melonds.ui.emulator.EmulatorActivity</entry>
+			<entry>me.magnum.melonds.dev/me.magnum.melonds.ui.emulator.EmulatorActivity</entry>
         </rule>
     </emulator>
     <emulator name="NYUSHU">
