@@ -159,7 +159,13 @@
 			<entry>com.miHoYo.GenshinImpact/com.winlator.cmod.XServerDisplayActivity</entry>
         </rule>
     </emulator>
-    <emulator name="XBPLAY">
+    <emulator name="X1-BOX">
+        <!-- Microsoft Xbox emulator X1 BOX -->
+        <rule type="androidpackage">
+            <entry>com.izzy2lost.x1box/.LauncherActivity</entry>
+        </rule>
+    </emulator>
+	<emulator name="XBPLAY">
         <!-- Xbox Game Streaming XBPlay -->
         <rule type="androidpackage">
             <entry>com.studio08.xbgamestream/com.studio08.xbgamestream.PWAMainMenuActivity</entry>
