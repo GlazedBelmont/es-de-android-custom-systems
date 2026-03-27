@@ -89,6 +89,12 @@
 			<entry>com.miHoYo.Yuanshen.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
         </rule>  
     </emulator>
+	<emulator name="HAKUX">
+        <!-- Microsoft Xbox emulator hakuX -->
+        <rule type="androidpackage">
+            <entry>com.rfandango.haku_x/.LauncherActivity</entry>
+        </rule>
+    </emulator>
     <emulator name="MELONDUALDS">
         <!-- Nintendo DS and DSi emulator melonDS (Nightly build) -->
         <rule type="androidpackage">
