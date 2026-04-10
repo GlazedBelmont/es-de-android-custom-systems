@@ -1,16 +1,6 @@
 <?xml version="1.0"?>
 <!-- This is the ES-DE game systems configuration file for Android -->
 <systemList>
-    <system>
-        <name>epic</name>
-        <fullname>Epic Games Store</fullname>
-        <path>%ROMPATH%/epic</path>
-        <extension>.app .APP .epic</extension>
-        <command label="Android Game">%ANDROIDAPP%=%FILEINJECT%</command>
-		<command label="GameNative Epic (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=EPIC %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
-        <platform>android</platform>
-        <theme>epic</theme>
-    </system>
 	<system>
         <name>gb</name>
         <fullname>Nintendo Game Boy</fullname>
@@ -173,15 +163,6 @@
         <platform>android</platform>
         <theme>gog</theme>
     </system>
-	<system>
-        <name>model3</name>
-        <fullname>Sega Model 3</fullname>
-        <path>%ROMPATH%/model3</path>
-        <extension>.zip .ZIP</extension>
-        <command label="SUPER3 (Standalone)">%EMULATOR_SUPER3% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
-        <platform>arcade</platform>
-        <theme>model3</theme>
-    </system>
     <system>
         <name>msu-md</name>
         <fullname>Sega Mega Drive MSU</fullname>
@@ -198,7 +179,8 @@
         <fullname>Nintendo 3DS</fullname>
         <path>%ROMPATH%/n3ds</path>
         <extension>.3ds .3DS .3dsx .3DSX .app .APP .axf .AXF .cci .CCI .cxi .CXI .elf .ELF .7z .7Z .zip .ZIP .zcia .ZCIA .zcci .ZCCI .z3dsx .Z3DSX .zcxi .ZCXI</extension>
-        <command label="Azahar (Standalone)">%EMULATOR_AZAHAR% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
+        <command label="Azahar">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/azahar_libretro.so %EXTRA_ROM%=%ROM%</command>
+		<command label="Azahar (Standalone)">%EMULATOR_AZAHAR% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
         <command label="AzaharPlus (Standalone)">%EMULATOR_AZAHARPLUS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
         <command label="Citra">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/citra_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="Citra (Standalone)">%EMULATOR_CITRA% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
@@ -247,18 +229,6 @@
         <platform>nes</platform>
         <theme>nesh</theme>
     </system>	
-	<system>
-        <name>pico8</name>
-        <fullname>PICO-8 Fantasy Console</fullname>
-        <path>%ROMPATH%/pico8</path>
-        <extension>.p8 .P8 .png .PNG</extension>
-        <command label="Fake-08">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/fake08_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-        <command label="Retro8">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/retro8_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-        <command label="Infinity (Standalone)">%EMULATOR_INFINITY% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
-        <command label="Pico8 (Standalone)">%EMULATOR_PICO8-FRONTEND% ++ --%DATA%=%ROMSAF%</command>
-        <platform>pico8</platform>
-        <theme>pico8</theme>
-    </system>
     <system>
         <name>ps2</name>
         <fullname>Sony PlayStation 2</fullname>
@@ -380,25 +350,6 @@
 		<command label="GameHub Lite Local (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_localGameId%=%INJECT%=%ROM%</command>
         <platform>pcwindows</platform>
         <theme>windows</theme>
-    </system>
-	<system>
-        <name>xbox</name>
-        <fullname>Microsoft Xbox</fullname>
-        <path>%ROMPATH%/xbox</path>
-        <extension>.iso .ISO .xiso .XISO</extension>
-        <command label="X1 BOX (Standalone)">%EMULATOR_X1-BOX% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
-		<command label="hakuX (Standalone)">%EMULATOR_HAKUX% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
-        <platform>xbox</platform>
-        <theme>xbox</theme>
-    </system>
-    <system>
-        <name>xbox360</name>
-        <fullname>Microsoft Xbox 360</fullname>
-        <path>%ROMPATH%/xbox360</path>
-        <extension>.bin .BIN .god .GOD .iso .ISO .xbla .XBLA .xex .XEX .zar .ZAR</extension>
-		<command label="aX360e (Standalone)">%EMULATOR_AX360E% %ACTION%=aenu.intent.action.AX360E %EXTRA_game_uri%=%ROMSAF% </command>
-        <platform>xbox360</platform>
-        <theme>xbox360</theme>
     </system>
 	<system>
         <name>xboxgamepass</name>

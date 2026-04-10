@@ -7,20 +7,6 @@
             <entry>xyz.aethersx2.custom/xyz.aethersx2.android.EmulationActivity</entry>
         </rule>
     </emulator>
-	<emulator name="AX360E">
-        <!-- Microsoft Xbox 360 emulator aX360e -->
-        <rule type="androidpackage">
-            <entry>aenu.ax360e/aenu.ax360e.EmulatorActivity</entry>
-            <entry>aenu.ax360e.free/aenu.ax360e.EmulatorActivity</entry>
-        </rule>
-    </emulator>
-	<emulator name="AZAHAR">
-        <!-- Nintendo 3DS emulator Azahar -->
-        <rule type="androidpackage">
-            <entry>io.github.lime3ds.android/org.citra.citra_emu.activities.EmulationActivity</entry>
-			<entry>org.azahar_emu.azahar/org.citra.citra_emu.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>
     <emulator name="BENJI-SC">
         <!-- Nintendo Switch emulator Benji-SC -->
         <rule type="androidpackage">
@@ -73,28 +59,6 @@
 			<entry>org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
         </rule>
     </emulator>
-    <emulator name="EDEN">
-        <!-- Nintendo Switch emulator Eden -->
-        <rule type="androidpackage">
-            <entry>dev.eden.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-			<entry>dev.legacy.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-            <entry>com.miHoYo.Yuanshen/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>
-    <emulator name="EDEN-NIGHTLY">
-        <!-- Nintendo Switch emulator Eden -->
-        <rule type="androidpackage">
-            <entry>dev.eden.eden_emulator.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-			<entry>dev.legacy.eden_emulator.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-			<entry>com.miHoYo.Yuanshen.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-        </rule>  
-    </emulator>
-	<emulator name="HAKUX">
-        <!-- Microsoft Xbox emulator hakuX -->
-        <rule type="androidpackage">
-            <entry>com.rfandango.haku_x/.LauncherActivity</entry>
-        </rule>
-    </emulator>
     <emulator name="MELONDUALDS">
         <!-- Nintendo DS and DSi emulator melonDS (Nightly build) -->
         <rule type="androidpackage">
@@ -106,12 +70,6 @@
         <!-- Nintendo Switch emulator Nyushu -->
         <rule type="androidpackage">
             <entry>com.andromeda.androbench2/org.suyu.suyu_emu.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>
-	<emulator name="PICO8-FRONTEND">
-        <!-- PICO-8 Fantasy Console game engine Infinity -->
-        <rule type="androidpackage">
-			<entry>io.wip.pico8/com.godot.game.GodotAppLauncher</entry>
         </rule>
     </emulator>
     <emulator name="SUDACHI">
@@ -126,12 +84,6 @@
         <rule type="androidpackage">
             <entry>com.sumi.SumiEmulator/org.sumi.sumi_emu.activities.EmulationActivity</entry>
             <entry>com.antutu.ABenchMark/org.sumi.sumi_emu.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>
-    <emulator name="SUPER3">
-        <!-- Sega Model 3 emulator SUPER3 -->
-        <rule type="androidpackage">
-            <entry>com.izzy2lost.super3/com.izzy2lost.super3.MainActivity</entry>
         </rule>
     </emulator>
     <emulator name="SUYU">
@@ -164,12 +116,6 @@
             <entry>com.winlator.vanilla/com.winlator.cmod.XServerDisplayActivity</entry>
 			<entry>com.ludashi.benchmark/com.winlator.cmod.XServerDisplayActivity</entry>
 			<entry>com.miHoYo.GenshinImpact/com.winlator.cmod.XServerDisplayActivity</entry>
-        </rule>
-    </emulator>
-    <emulator name="X1-BOX">
-        <!-- Microsoft Xbox emulator X1 BOX -->
-        <rule type="androidpackage">
-            <entry>com.izzy2lost.x1box/.LauncherActivity</entry>
         </rule>
     </emulator>
 	<emulator name="XBPLAY">
