@@ -59,7 +59,13 @@
 			<entry>org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
         </rule>
     </emulator>
-    <emulator name="MELONDUALDS">
+    <emulator name="EMUCOREX">
+        <!-- Sony PlayStation 2 emulator EmuCoreX -->
+        <rule type="androidpackage">
+            <entry>com.sbro.emucorex/.MainActivity</entry>
+        </rule>
+    </emulator>
+	<emulator name="MELONDUALDS">
         <!-- Nintendo DS and DSi emulator melonDS (Nightly build) -->
         <rule type="androidpackage">
 			<entry>me.magnum.melondualds/me.magnum.melonds.ui.emulator.EmulatorActivity</entry>
