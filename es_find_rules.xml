@@ -72,6 +72,12 @@
 			<entry>me.magnum.melonds.dev/me.magnum.melonds.ui.emulator.EmulatorActivity</entry>
         </rule>
     </emulator>
+	<emulator name="NETHERSX2-TURNIP">
+		<!-- Sony PlayStation 2 emulator NetherSX2-Turnip -->
+		<rule type="androidpackage">
+			<entry>xyz.aethersx2.tturnip/xyz.aethersx2.android.EmulationActivity</entry>
+		</rule>
+	</emulator>
     <emulator name="NYUSHU">
         <!-- Nintendo Switch emulator Nyushu -->
         <rule type="androidpackage">
