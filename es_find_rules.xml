@@ -1,12 +1,6 @@
 <?xml version="1.0"?>
 <!-- This is the ES-DE find rules configuration file for Android -->
 <ruleList>
-    <emulator name="AETHERSX2-TURNIP">
-        <!-- Sony PlayStation 2 emulator AetherSX2 -->
-        <rule type="androidpackage">
-            <entry>xyz.aethersx2.custom/xyz.aethersx2.android.EmulationActivity</entry>
-        </rule>
-    </emulator>
     <emulator name="BENJI-SC">
         <!-- Nintendo Switch emulator Benji-SC -->
         <rule type="androidpackage">
@@ -76,6 +70,12 @@
 		<!-- Sony PlayStation 2 emulator NetherSX2-Turnip -->
 		<rule type="androidpackage">
 			<entry>xyz.aethersx2.tturnip/xyz.aethersx2.android.EmulationActivity</entry>
+		</rule>
+	</emulator>
+	<emulator name="NETHERSX2-TURNIP-CLASSIC">
+		<!-- Sony PlayStation 2 emulator NetherSX2-Turnip -->
+		<rule type="androidpackage">
+			<entry>xyz.aethersx2.cturnip/xyz.aethersx2.android.EmulationActivity</entry>
 		</rule>
 	</emulator>
     <emulator name="NYUSHU">
