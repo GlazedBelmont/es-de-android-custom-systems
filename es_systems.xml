@@ -250,6 +250,7 @@
         <extension>.psvita</extension>
         <command label="Vita3K (Standalone)">%EMULATOR_VITA3K% %EXTRAARRAY_AppStartParameters%=-r,%INJECT%=%BASENAME%.psvita</command>
         <command label="Vita3KZX (Standalone)">%EMULATOR_VITA3KZX% %EXTRAARRAY_AppStartParameters%=-r,%INJECT%=%BASENAME%.psvita</command>
+		<command label="EmuCoreV (Standalone)">%EMULATOR_EMUCOREV% %EXTRAARRAY_AppStartParameters%=-r,%INJECT%=%BASENAME%.psvita</command>
         <platform>psvita</platform>
         <theme>psvita</theme>
     </system>

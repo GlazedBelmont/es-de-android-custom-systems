@@ -53,7 +53,13 @@
 			<entry>org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
         </rule>
     </emulator>
-    <emulator name="EMUCOREX">
+    <emulator name="EMUCOREV">
+        <!-- Sony PlayStation Vita emulator EmuCoreV -->
+        <rule type="androidpackage">
+            <entry>com.sbro.emucorev/com.sbro.emucorev.core.vita.Emulator</entry>
+        </rule>
+    </emulator>
+	<emulator name="EMUCOREX">
         <!-- Sony PlayStation 2 emulator EmuCoreX -->
         <rule type="androidpackage">
             <entry>com.sbro.emucorex/.MainActivity</entry>
