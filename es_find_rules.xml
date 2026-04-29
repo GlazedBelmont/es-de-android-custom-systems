@@ -67,42 +67,45 @@
     <emulator name="DOLPHIN-PRIMEHACK">
         <!-- Nintendo GameCube and Wii emulator Dolphin -->
         <rule type="androidpackage">
-            <entry>org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
+            <entry>org.dolphinemu.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
+			<entry>org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
         </rule>
     </emulator>
-    <emulator name="EDEN">
-        <!-- Nintendo Switch emulator Eden -->
+    <emulator name="EMUCOREV">
+        <!-- Sony PlayStation Vita emulator EmuCoreV -->
         <rule type="androidpackage">
-            <entry>dev.eden.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-			<entry>dev.legacy.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-            <entry>com.miHoYo.Yuanshen/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+            <entry>com.sbro.emucorev/com.sbro.emucorev.core.vita.Emulator</entry>
         </rule>
     </emulator>
-    <emulator name="EDEN-NIGHTLY">
-        <!-- Nintendo Switch emulator Eden -->
+	<emulator name="EMUCOREX">
+        <!-- Sony PlayStation 2 emulator EmuCoreX -->
         <rule type="androidpackage">
-            <entry>dev.eden.eden_emulator.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-			<entry>dev.legacy.eden_emulator.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-			<entry>com.miHoYo.Yuanshen.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+            <entry>com.sbro.emucorex/.MainActivity</entry>
         </rule>
     </emulator>
-    <emulator name="MELONDS-FORK">
+	<emulator name="MELONDUALDS">
         <!-- Nintendo DS and DSi emulator melonDS (Nightly build) -->
         <rule type="androidpackage">
-            <entry>me.magnum.melonds.dev/me.magnum.melonds.ui.emulator.EmulatorActivity</entry>
+			<entry>me.magnum.melondualds/me.magnum.melonds.ui.emulator.EmulatorActivity</entry>
+			<entry>me.magnum.melonds.dev/me.magnum.melonds.ui.emulator.EmulatorActivity</entry>
         </rule>
     </emulator>
+	<emulator name="NETHERSX2-TURNIP">
+		<!-- Sony PlayStation 2 emulator NetherSX2-Turnip -->
+		<rule type="androidpackage">
+			<entry>xyz.aethersx2.tturnip/xyz.aethersx2.android.EmulationActivity</entry>
+		</rule>
+	</emulator>
+	<emulator name="NETHERSX2-TURNIP-CLASSIC">
+		<!-- Sony PlayStation 2 emulator NetherSX2-Turnip -->
+		<rule type="androidpackage">
+			<entry>xyz.aethersx2.cturnip/xyz.aethersx2.android.EmulationActivity</entry>
+		</rule>
+	</emulator>
     <emulator name="NYUSHU">
         <!-- Nintendo Switch emulator Nyushu -->
         <rule type="androidpackage">
             <entry>com.andromeda.androbench2/org.suyu.suyu_emu.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>
-	<emulator name="PICO8-FRONTEND">
-        <!-- PICO-8 Fantasy Console game engine Infinity -->
-        <rule type="androidpackage">
-			<entry>io.wip.pico8/com.godot.game.GodotAppLauncher</entry>
-            <entry>io.wip.pico8/com.godot.game.GodotApp</entry>
         </rule>
     </emulator>
     <emulator name="SUDACHI">
@@ -117,12 +120,6 @@
         <rule type="androidpackage">
             <entry>com.sumi.SumiEmulator/org.sumi.sumi_emu.activities.EmulationActivity</entry>
             <entry>com.antutu.ABenchMark/org.sumi.sumi_emu.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>
-    <emulator name="SUPER3">
-        <!-- Sega Model 3 emulator SUPER3 -->
-        <rule type="androidpackage">
-            <entry>com.izzy2lost.super3/com.izzy2lost.super3.MainActivity</entry>
         </rule>
     </emulator>
     <emulator name="SUYU">
@@ -157,7 +154,7 @@
 			<entry>com.miHoYo.GenshinImpact/com.winlator.cmod.XServerDisplayActivity</entry>
         </rule>
     </emulator>
-    <emulator name="XBPLAY">
+	<emulator name="XBPLAY">
         <!-- Xbox Game Streaming XBPlay -->
         <rule type="androidpackage">
             <entry>com.studio08.xbgamestream/com.studio08.xbgamestream.PWAMainMenuActivity</entry>

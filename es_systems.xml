@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!-- This is the ES-DE game systems configuration file for Android -->
 <systemList>
-    <system>
+	<system>
         <name>gb</name>
         <fullname>Nintendo Game Boy</fullname>
         <path>%ROMPATH%/gb</path>
@@ -155,13 +155,13 @@
         <theme>genh</theme>
     </system>
 	<system>
-        <name>model3</name>
-        <fullname>Sega Model 3</fullname>
-        <path>%ROMPATH%/model3</path>
-        <extension>.zip .ZIP</extension>
-        <command label="SUPER3 (Standalone)">%EMULATOR_SUPER3% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
-        <platform>arcade</platform>
-        <theme>model3</theme>
+        <name>gog</name>
+        <fullname>GOG.com</fullname>
+        <path>%ROMPATH%/gog</path>
+        <extension>.gog</extension>
+		<command label="GameNative GOG (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=GOG %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+        <platform>android</platform>
+        <theme>gog</theme>
     </system>
     <system>
         <name>moonlight</name>
@@ -188,7 +188,8 @@
         <fullname>Nintendo 3DS</fullname>
         <path>%ROMPATH%/n3ds</path>
         <extension>.3ds .3DS .3dsx .3DSX .app .APP .axf .AXF .cci .CCI .cxi .CXI .elf .ELF .7z .7Z .zip .ZIP .zcia .ZCIA .zcci .ZCCI .z3dsx .Z3DSX .zcxi .ZCXI</extension>
-        <command label="Azahar (Standalone)">%EMULATOR_AZAHAR% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
+        <command label="Azahar">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/azahar_libretro.so %EXTRA_ROM%=%ROM%</command>
+		<command label="Azahar (Standalone)">%EMULATOR_AZAHAR% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
         <command label="AzaharPlus (Standalone)">%EMULATOR_AZAHARPLUS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
         <command label="Citra">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/citra_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="Citra (Standalone)">%EMULATOR_CITRA% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
@@ -212,7 +213,7 @@
         <command label="melonDS">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/melonds_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="melonDS (Standalone)">%EMULATOR_MELONDS% %ACTION%=me.magnum.melonds.LAUNCH_ROM %EXTRA_uri%=%ROMSAF%</command>
         <command label="melonDS Nightly (Standalone)">%EMULATOR_MELONDS-NIGHTLY% %ACTION%=me.magnum.melonds.nightly.LAUNCH_ROM %EXTRA_uri%=%ROMSAF%</command>
-        <command label="melonDS Fork (Standalone)">%EMULATOR_MELONDS-FORK% %ACTION%=me.magnum.melonds.dev.LAUNCH_ROM %EXTRA_uri%=%ROMSAF%</command>
+        <command label="melonDualDS (Standalone)">%EMULATOR_MELONDUALDS% %ACTION%=me.magnum.melonds.dev.LAUNCH_ROM %EXTRA_uri%=%ROMSAF%</command>
         <command label="DeSmuME">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/desmume_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="DeSmuME 2015">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/desmume2015_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="NooDS">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/noods_libretro_android.so %EXTRA_ROM%=%ROM%</command>
@@ -237,27 +238,17 @@
         <platform>nes</platform>
         <theme>nesh</theme>
     </system>	
-	<system>
-        <name>pico8</name>
-        <fullname>PICO-8 Fantasy Console</fullname>
-        <path>%ROMPATH%/pico8</path>
-        <extension>.p8 .P8 .png .PNG</extension>
-        <command label="Fake-08">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/fake08_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-        <command label="Retro8">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/retro8_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-        <command label="Infinity (Standalone)">%EMULATOR_INFINITY% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
-        <command label="Pico8 (Standalone)">%EMULATOR_PICO8-FRONTEND% ++ --%DATA%=%ROMSAF%</command>
-        <platform>pico8</platform>
-        <theme>pico8</theme>
-    </system>
     <system>
         <name>ps2</name>
         <fullname>Sony PlayStation 2</fullname>
         <path>%ROMPATH%/ps2</path>
         <extension>.bin .BIN .chd .CHD .ciso .CISO .cso .CSO .dump .DUMP .elf .ELF .gz .GZ .m3u .M3U .mdf .MDF .img .IMG .iso .ISO .isz .ISZ .ngr .NRG</extension>
         <command label="AetherSX2 (Standalone)">%EMULATOR_AETHERSX2% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.MAIN %EXTRA_bootPath%=%ROMSAF%</command>
-        <command label="AetherSX2-Turnip (Standalone)">%EMULATOR_AETHERSX2-TURNIP% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.MAIN %EXTRA_bootPath%=%ROMSAF%</command>
 		<command label="ARMSX2 (Standalone)">%EMULATOR_ARMSX2% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
-        <command label="Play! (Standalone)">%EMULATOR_PLAY!% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
+        <command label="EmuCoreX (Standalone)">%EMULATOR_EMUCOREX% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
+		<command label="NetherSX2-Turnip (Standalone)">%EMULATOR_NETHERSX2-TURNIP% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.MAIN %EXTRA_bootPath%=%ROMSAF%</command>
+		<command label="NetherSX2-Turnip Classic (Standalone)">%EMULATOR_NETHERSX2-TURNIP-CLASSIC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.MAIN %EXTRA_bootPath%=%ROMSAF%</command>
+		<command label="Play! (Standalone)">%EMULATOR_PLAY!% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
         <platform>ps2</platform>
         <theme>ps2</theme>
     </system>
@@ -268,6 +259,7 @@
         <extension>.psvita</extension>
         <command label="Vita3K (Standalone)">%EMULATOR_VITA3K% %EXTRAARRAY_AppStartParameters%=-r,%INJECT%=%BASENAME%.psvita</command>
         <command label="Vita3KZX (Standalone)">%EMULATOR_VITA3KZX% %EXTRAARRAY_AppStartParameters%=-r,%INJECT%=%BASENAME%.psvita</command>
+		<command label="EmuCoreV (Standalone)">%EMULATOR_EMUCOREV% %EXTRAARRAY_AppStartParameters%=-r,%INJECT%=%BASENAME%.psvita</command>
         <platform>psvita</platform>
         <theme>psvita</theme>
     </system>
@@ -357,25 +349,19 @@
         <name>windows</name>
         <fullname>Microsoft Windows</fullname>
         <path>%ROMPATH%/windows</path>
-        <extension>.desktop .steam</extension>
+        <extension>.desktop .epic .gog .pcgame .steam</extension>
         <command label="Winlator Cmod (Standalone)">%EMULATOR_WINLATOR-CMOD% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
 		<command label="Winlator-Ludashi (Standalone)">%EMULATOR_WINLATOR-LUDASHI% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
 		<command label="Winlator Cmod Glibc (Standalone)">%EMULATOR_WINLATOR-GLIBC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
         <command label="Winlator Cmod PRoot (Standalone)">%EMULATOR_WINLATOR-PROOT% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
-		<command label="GameNative (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+		<command label="GameNative Steam (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+		<command label="GameNative Custom Game (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=CUSTOM_GAME %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+		<command label="GameNative EPIC (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=EPIC %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+		<command label="GameNative GOG (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=GOG %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
 		<command label="GameHub Lite (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_steamAppId%=%INJECT%=%ROM%</command>
 		<command label="GameHub Lite Local (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_localGameId%=%INJECT%=%ROM%</command>
         <platform>pcwindows</platform>
         <theme>windows</theme>
-    </system>
-    <system>
-        <name>xbox360</name>
-        <fullname>Microsoft Xbox 360</fullname>
-        <path>%ROMPATH%/xbox360</path>
-        <extension>.bin .BIN .god .GOD .iso .ISO .xbla .XBLA .xex .XEX .zar .ZAR</extension>
-		<command label="aX360e (Standalone)">%EMULATOR_AX360E% %ACTION%=aenu.intent.action.AX360E %EXTRA_game_uri%=%ROMSAF% </command>
-        <platform>xbox360</platform>
-        <theme>xbox360</theme>
     </system>
 	<system>
         <name>xboxgamepass</name>
