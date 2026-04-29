@@ -1,6 +1,24 @@
 <?xml version="1.0"?>
 <!-- This is the ES-DE find rules configuration file for Android -->
 <ruleList>
+    <emulator name="AETHERSX2-TURNIP">
+        <!-- Sony PlayStation 2 emulator AetherSX2 -->
+        <rule type="androidpackage">
+            <entry>xyz.aethersx2.custom/xyz.aethersx2.android.EmulationActivity</entry>
+        </rule>
+    </emulator>
+	<emulator name="AX360E">
+        <!-- Microsoft Xbox 360 emulator aX360e -->
+        <rule type="androidpackage">
+            <entry>aenu.ax360e/aenu.ax360e.EmulatorActivity</entry>
+            <entry>aenu.ax360e.free/aenu.ax360e.EmulatorActivity</entry>
+        </rule>
+    </emulator>
+    <emulator name="Artemis">
+        <rule type="androidpackage">
+            <entry>com.limelight.noir/com.limelight.ShortcutTrampoline</entry>
+        </rule>
+    </emulator>
     <emulator name="BENJI-SC">
         <!-- Nintendo Switch emulator Benji-SC -->
         <rule type="androidpackage">
