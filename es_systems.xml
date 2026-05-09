@@ -178,7 +178,7 @@
         <name>n3ds</name>
         <fullname>Nintendo 3DS</fullname>
         <path>%ROMPATH%/n3ds</path>
-        <extension>.3ds .3DS .3dsx .3DSX .app .APP .axf .AXF .cci .CCI .cxi .CXI .elf .ELF .7z .7Z .zip .ZIP .zcia .ZCIA .zcci .ZCCI .z3dsx .Z3DSX .zcxi .ZCXI</extension>
+        <extension>.3ds .3DS .3dsx .3DSX .app .APP .axf .AXF .cci .CCI .cxi .CXI .elf .ELF .7z .7Z .zip .ZIP .zcia .ZCIA .zcci .ZCCI .z3dsx .Z3DSX .zcxi .ZCXI .cia</extension>
         <command label="Azahar">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/azahar_libretro.so %EXTRA_ROM%=%ROM%</command>
 		<command label="Azahar (Standalone)">%EMULATOR_AZAHAR% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
         <command label="AzaharPlus (Standalone)">%EMULATOR_AZAHARPLUS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
