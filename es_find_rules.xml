@@ -52,6 +52,10 @@
             <entry>org.dolphinemu.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
 			<entry>org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
         </rule>
+		<emulator name="DOLPHIN-HANDHELD">
+	        <!-- Dolphin for Handheld, fork of Nintendo GameCube and Wii emulator Dolphin -->
+	        <rule type="androidpackage">
+	            <entry>org.dolphinemu.handheld/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
     </emulator>
     <emulator name="EMUCOREV">
         <!-- Sony PlayStation Vita emulator EmuCoreV -->
