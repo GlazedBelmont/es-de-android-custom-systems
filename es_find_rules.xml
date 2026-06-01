@@ -55,7 +55,7 @@
 		<emulator name="DOLPHIN-HANDHELD">
 	        <!-- Dolphin for Handheld, fork of Nintendo GameCube and Wii emulator Dolphin -->
 	        <rule type="androidpackage">
-	            <entry>org.dolphinemu.handheld/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
+	            <entry>org.dolphinemu.handheld/org.dolphinemu.dolphinemu.activities.EmulationActivity</entry>
     </emulator>
     <emulator name="EMUCOREV">
         <!-- Sony PlayStation Vita emulator EmuCoreV -->
