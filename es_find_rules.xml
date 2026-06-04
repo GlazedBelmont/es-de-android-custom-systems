@@ -136,6 +136,12 @@
 			<entry>com.miHoYo.GenshinImpact/com.winlator.cmod.XServerDisplayActivity</entry>
         </rule>
     </emulator>
+	<emulator name="X360MOBILE">
+        <!-- Microsoft Xbox 360 emulator X360 Mobile -->
+        <rule type="androidpackage">
+            <entry>emu.x360.mobile/emu.x360.mobile.X360MobileGameLaunchActivity</entry>
+        </rule>
+    </emulator>
 	<emulator name="XBPLAY">
         <!-- Xbox Game Streaming XBPlay -->
         <rule type="androidpackage">
