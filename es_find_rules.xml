@@ -65,6 +65,12 @@
             <entry>com.sbro.emucorex/.MainActivity</entry>
         </rule>
     </emulator>
+	<emulator name="ARMSX2R">
+        <!-- Sony PlayStation 2 emulator ARMSX2 Refresh-->
+        <rule type="androidpackage">
+            <entry>com.armsx2/.Main</entry>
+        </rule>
+    </emulator>	
 	<emulator name="MELONDUALDS">
         <!-- Nintendo DS and DSi emulator melonDS (Nightly build) -->
         <rule type="androidpackage">
