@@ -40,6 +40,12 @@
             <entry>org.cytrus.cytrus_emu/.activities.EmulationActivity</entry>
         </rule>
     </emulator>
+    <emulator name="DOLPHINCS">
+        <!-- Nintendo GameCube and Wii emulator DolphinCS fork with external storage -->
+        <rule type="androidpackage">
+            <entry>com.joeyos.dolphinemu/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
+        </rule>
+    </emulator>
     <emulator name="DOLPHIN-ENHANCED">
         <!-- Nintendo GameCube and Wii emulator Dolphin Enhanced -->
         <rule type="androidpackage">
