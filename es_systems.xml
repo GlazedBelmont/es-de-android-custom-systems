@@ -81,6 +81,7 @@
         <command label="Dolphin MMJR2 (Standalone)">%EMULATOR_DOLPHIN-MMJR2% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
         <command label="Dolphin Enhanced (Standalone)">%EMULATOR_DOLPHIN-ENHANCED% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
         <command label="Dolphin Primehack (Standalone)">%EMULATOR_DOLPHIN-PRIMEHACK% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
+		<command label="Dolphin for Handheld (Standalone)">%EMULATOR_DOLPHIN-HANDHELD% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROM%</command>
         <platform>gc</platform>
         <theme>gc</theme>
     </system>
@@ -269,6 +270,7 @@
         <command label="Dolphin MMJR2 (Standalone)">%EMULATOR_DOLPHIN-MMJR2% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
         <command label="Dolphin Enhanced (Standalone)">%EMULATOR_DOLPHIN-ENHANCED% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
         <command label="Dolphin Primehack (Standalone)">%EMULATOR_DOLPHIN-PRIMEHACK% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
+		<command label="Dolphin for Handheld (Standalone)">%EMULATOR_DOLPHIN-HANDHELD% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROM%</command>
         <platform>wii</platform>
         <theme>wii</theme>
     </system>
