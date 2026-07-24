@@ -319,6 +319,7 @@
         <extension>. .iso .ISO .xex .XEX .zar .ZAR</extension>
         <command label="aX360e (Standalone)">%EMULATOR_AX360E% %ACTION%=aenu.intent.action.AX360E %EXTRA_game_uri%=%ROMSAF%</command>
 		<command label="X360 Mobile (Standalone)">%EMULATOR_X360MOBILE% %DATA%=%ROMSAF%</command>
+		<command label="XenDroid (Standalone)">%EMULATOR_XENDROID% %DATA%=%ROMSAF%</command>
         <platform>xbox360</platform>
         <theme>xbox360</theme>
     </system>
