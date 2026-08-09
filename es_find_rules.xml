@@ -1,7 +1,19 @@
 <?xml version="1.0"?>
 <!-- This is the ES-DE find rules configuration file for Android -->
 <ruleList>
-    <emulator name="BENJI-SC">
+    <emulator name="ARMSX1">
+        <!-- Sony PlayStation emulator ARMSX1-->
+        <rule type="androidpackage">
+            <entry>com.nanodata.armsx/com.armsx2.Main</entry>
+        </rule>
+    </emulator>
+	<emulator name="ARMSX3">
+        <!-- Sony PlayStation 3 emulator ARMSX3-->
+        <rule type="androidpackage">
+            <entry>com.armsx3/com.armsx2.Main</entry>
+        </rule>
+    </emulator>
+	<emulator name="BENJI-SC">
         <!-- Nintendo Switch emulator Benji-SC -->
         <rule type="androidpackage">
             <entry>org.benjisc.android/org.kenjinx.android.MainActivity</entry>
