@@ -114,6 +114,12 @@
             <entry>com.andromeda.androbench2/org.suyu.suyu_emu.activities.EmulationActivity</entry>
         </rule>
     </emulator>
+	<emulator name="SEEDLESSDS">
+        <!-- Nintendo DS and DSi emulator SeedlessDS -->
+        <rule type="androidpackage">
+			<entry>com.seedlessds.app/com.seedlessds.app.LaunchGame</entry>
+        </rule>
+	</emulator>
     <emulator name="SUDACHI">
         <!-- Nintendo Switch emulator Sudachi -->
         <rule type="androidpackage">
