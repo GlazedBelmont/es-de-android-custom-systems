@@ -7,6 +7,12 @@
             <entry>com.nanodata.armsx/com.armsx2.Main</entry>
         </rule>
     </emulator>
+	<emulator name="ARMSX2">
+        <!-- Sony PlayStation 2 emulator ARMSX2-->
+        <rule type="androidpackage">
+            <entry>com.armsx2/.Main</entry>
+        </rule>
+    </emulator>
 	<emulator name="ARMSX3">
         <!-- Sony PlayStation 3 emulator ARMSX3-->
         <rule type="androidpackage">
