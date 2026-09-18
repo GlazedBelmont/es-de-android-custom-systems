@@ -99,6 +99,7 @@
         <!-- Sony PlayStation 2 emulator ARMSX2 Refresh-->
         <rule type="androidpackage">
             <entry>com.armsx2/.Main</entry>
+			<entry>come.nanodata.armsx2/com.armsx2.Main</entry>
         </rule>
     </emulator>	
 	<emulator name="MELONDUALDS">
