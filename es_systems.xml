@@ -13,6 +13,7 @@
         <command label="DoubleCherryGB">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/DoubleCherryGB_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="IroGB">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/irogb_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="Mesen-S">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mesen-s_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="MesenCE">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mesen2_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="bsnes">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/bsnes_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="mGBA">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mgba_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="VBA-M">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/vbam_libretro_android.so %EXTRA_ROM%=%ROM%</command>
@@ -38,6 +39,7 @@
         <command label="NooDS (Standalone)">%EMULATOR_NOODS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_LaunchPath%=%ROM%</command>
         <command label="SkyEmu">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/skyemu_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="SkyEmu (Standalone)">%EMULATOR_SKYEMU% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
+        <command label="MesenCE">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mesen2_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="GBA.emu (Standalone)">%EMULATOR_GBA-EMU% %DATA%=%ROMPROVIDER%</command>
         <command label="My Boy! (Standalone)">%EMULATOR_MY-BOY% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
         <command label="Linkboy (Standalone)">%EMULATOR_LINKBOY% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
@@ -57,6 +59,7 @@
         <command label="DoubleCherryGB">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/DoubleCherryGB_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="IroGB">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/irogb_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="Mesen-S">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mesen-s_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="MesenCE">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mesen2_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="bsnes">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/bsnes_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="mGBA">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mgba_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="VBA-M">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/vbam_libretro_android.so %EXTRA_ROM%=%ROM%</command>
@@ -92,6 +95,7 @@
         <command label="Genesis Plus GX">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/genesis_plus_gx_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="Genesis Plus GX Wide">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/genesis_plus_gx_wide_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="PicoDrive">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/picodrive_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="BlastEm">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/blastem_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="ClownMDEmu">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/clownmdemu_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="MD.emu (Standalone)">%EMULATOR_MD-EMU% %DATA%=%ROMPROVIDER%</command>
         <command label="Pizza Boy SC (Standalone)">%EMULATOR_PIZZA-BOY-SC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_rom_uri%=%ROMSAF%</command>
@@ -127,6 +131,7 @@
 		<command label="Azahar (Standalone)">%EMULATOR_AZAHAR% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
         <command label="AzaharPlus (Standalone)">%EMULATOR_AZAHARPLUS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
         <command label="Citra">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/citra_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+		<command label="Citra 2018">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/citra2018_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="Citra (Standalone)">%EMULATOR_CITRA% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
         <command label="Citra Canary (Standalone)">%EMULATOR_CITRA-CANARY% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
         <command label="Citra MMJ (Standalone)">%EMULATOR_CITRA-MMJ% %EXTRA_GamePath%=%ROM%</command>
@@ -140,55 +145,21 @@
         <theme>n3ds</theme>
     </system>
     <system>
-        <name>nds</name>
-        <fullname>Nintendo DS</fullname>
-        <path>%ROMPATH%/nds</path>
-        <extension>.app .APP .bin .BIN .dsi .DSI .ids .IDS .nds .NDS .7z .7Z .zip .ZIP</extension>
-        <command label="melonDS DS">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/melondsds_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-        <command label="melonDS">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/melonds_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-        <command label="melonDS (Standalone)">%EMULATOR_MELONDS% %ACTION%=me.magnum.melonds.LAUNCH_ROM %EXTRA_uri%=%ROMSAF%</command>
-        <command label="melonDS Nightly (Standalone)">%EMULATOR_MELONDS-NIGHTLY% %ACTION%=me.magnum.melonds.nightly.LAUNCH_ROM %EXTRA_uri%=%ROMSAF%</command>
-        <command label="melonDualDS (Standalone)">%EMULATOR_MELONDUALDS% %ACTION%=me.magnum.melonds.dev.LAUNCH_ROM %EXTRA_uri%=%ROMSAF%</command>
-        <command label="DeSmuME">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/desmume_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-        <command label="DeSmuME 2015">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/desmume2015_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-        <command label="NooDS">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/noods_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-        <command label="NooDS (Standalone)">%EMULATOR_NOODS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_LaunchPath%=%ROM%</command>
-        <command label="DraStic (Standalone)">%EMULATOR_DRASTIC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
-		<command label="SeedlessDS (Standalone)">%EMULATOR_SEEDLESSDS% %EXTRA_rom_path%=%ROM%</command>
-		<command label="SkyEmu">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/skyemu_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-        <command label="SkyEmu (Standalone)">%EMULATOR_SKYEMU% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
-        <platform>nds</platform>
-        <theme>nds</theme>
-    </system>
-    <system>
         <name>nesh</name>
         <fullname>Nintendo Entertainment System Hacks</fullname>
         <path>%ROMPATH%/nesh</path>
         <extension>.3dsen .3DSEN .fds .FDS .nes .NES .unf .UNF .unif .UNIF .7z .7Z .zip .ZIP</extension>
         <command label="Mesen">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mesen_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="MesenCE">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mesen2_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="Nestopia UE">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/nestopia_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="FCEUmm">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/fceumm_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="QuickNES">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/quicknes_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="RustyNES">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/rustynes_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="NES.emu (Standalone)">%EMULATOR_NES-EMU% %DATA%=%ROMPROVIDER%</command>
         <command label="iNES (Standalone)">%EMULATOR_INES% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
         <command label="Nesoid (Standalone)">%EMULATOR_NESOID% %ACTION%=android.intent.action.VIEW %DATA%=%ROM%</command>
         <platform>nes</platform>
         <theme>nesh</theme>
-    </system>
-    <system>
-        <name>ps2</name>
-        <fullname>Sony PlayStation 2</fullname>
-        <path>%ROMPATH%/ps2</path>
-        <extension>.bin .BIN .chd .CHD .ciso .CISO .cso .CSO .dump .DUMP .elf .ELF .gz .GZ .m3u .M3U .mdf .MDF .img .IMG .iso .ISO .isz .ISZ .ngr .NRG</extension>
-        <command label="AetherSX2 (Standalone)">%EMULATOR_AETHERSX2% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.MAIN %EXTRA_bootPath%=%ROMSAF%</command>
-		<command label="ARMSX2 (Standalone)">%EMULATOR_ARMSX2% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
-		<command label="ARMSX2 Refresh(Standalone)">%EMULATOR_ARMSX2R% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
-        <command label="EmuCoreX (Standalone)">%EMULATOR_EMUCOREX% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
-		<command label="NetherSX2-Turnip (Standalone)">%EMULATOR_NETHERSX2-TURNIP% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.MAIN %EXTRA_bootPath%=%ROMSAF%</command>
-		<command label="NetherSX2-Turnip Classic (Standalone)">%EMULATOR_NETHERSX2-TURNIP-CLASSIC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.MAIN %EXTRA_bootPath%=%ROMSAF%</command>
-		<command label="Play! (Standalone)">%EMULATOR_PLAY!% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
-        <platform>ps2</platform>
-        <theme>ps2</theme>
     </system>
 	<system>
         <name>ps3</name>
@@ -205,15 +176,6 @@
         <platform>ps3</platform>
         <theme>ps3</theme>
     </system>
-	<system>
-        <name>ps4</name>
-        <fullname>Sony PlayStation 4</fullname>
-        <path>%ROMPATH%/ps4</path>
-        <extension>.ps4 .PS4</extension>
-        <command label="BachataS4 (Standalone)">%EMULATOR_BACHATAS4% %EXTRA_game_id%=%INJECT%=%BASENAME%.ps4</command>
-        <platform>ps4</platform>
-        <theme>ps4</theme>
-    </system>
     <system>
         <name>psvita</name>
         <fullname>Sony PlayStation Vita</fullname>
@@ -225,23 +187,6 @@
 		<command label="EmuCoreV (Standalone)">%EMULATOR_EMUCOREV% %EXTRAARRAY_AppStartParameters%=-r,%INJECT%=%BASENAME%.psvita</command>
         <platform>psvita</platform>
         <theme>psvita</theme>
-    </system>
-	<system>
-        <name>psx</name>
-        <fullname>Sony PlayStation</fullname>
-        <path>%ROMPATH%/psx</path>
-        <extension>.bin .BIN .cbn .CBN .ccd .CCD .chd .CHD .cue .CUE .ecm .ECM .exe .EXE .img .IMG .iso .ISO .m3u .M3U .mdf .MDF .mds .MDS .minipsf .MINIPSF .pbp .PBP .psexe .PSEXE .psf .PSF .toc .TOC .z .Z .znx .ZNX .7z .7Z .zip .ZIP</extension>
-        <command label="Beetle PSX">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mednafen_psx_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-        <command label="Beetle PSX HW">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mednafen_psx_hw_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-        <command label="PCSX ReARMed">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/pcsx_rearmed_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-        <command label="SwanStation">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/swanstation_libretro_android.so %EXTRA_ROM%=%ROM%</command>
-		<command label="ARMSX1 (Standalone)">%EMULATOR_ARMSX1% %DATA%=%ROMSAF%</command>
-        <command label="DuckStation (Standalone)">%EMULATOR_DUCKSTATION% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRABOOL_resumeState%=false %EXTRA_bootPath%=%ROMSAF%</command>
-        <command label="ePSXe (Standalone)">%EMULATOR_EPSXE% %ACTION%=android.intent.action.MAIN %EXTRA_com.epsxe.ePSXe.isoName%=%ROM%</command>
-        <command label="FPseNG (Standalone)">%EMULATOR_FPSE-NG% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
-        <command label="FPse (Standalone)">%EMULATOR_FPSE% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
-        <platform>psx</platform>
-        <theme>psx</theme>
     </system>
     <system>
         <name>snesh</name>
@@ -258,6 +203,7 @@
         <command label="bsnes-mercury Accuracy">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/bsnes_mercury_accuracy_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="Beetle Supafaust">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mednafen_supafaust_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="Mesen-S">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mesen-s_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="MesenCE">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mesen2_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <platform>snes</platform>
         <theme>snesh</theme>
     </system>
@@ -276,6 +222,7 @@
         <command label="bsnes-mercury Accuracy">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/bsnes_mercury_accuracy_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="Beetle Supafaust">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mednafen_supafaust_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <command label="Mesen-S">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mesen-s_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="MesenCE">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mesen2_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <platform>snes-msu1</platform>
         <theme>snes-msu1</theme>
     </system>
@@ -334,38 +281,9 @@
         <extension>.elf .ELF .rpx .RPX .tmd .TMD .wua .WUA .wud .WUD .wuhb .WUHB .wux .WUX</extension>
         <command label="Cemu (Standalone)">%EMULATOR_CEMU% %DATA%=%ROMSAF%</command>
         <command label="Cemu Fork (Standalone)">%EMULATOR_CEMU-FORK% %DATA%=%ROMSAF%</command>
+        <command label="Cemu">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/cemu_libretro_android.so %EXTRA_ROM%=%ROM%</command>
         <platform>wiiu</platform>
         <theme>wiiu</theme>
-    </system>
-    <system>
-        <name>windows</name>
-        <fullname>Microsoft Windows</fullname>
-        <path>%ROMPATH%/windows</path>
-        <extension>.desktop .epic .gog .pcgame .steam</extension>
-        <command label="Winlator Cmod (Standalone)">%EMULATOR_WINLATOR-CMOD% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
-		<command label="Winlator-Ludashi (Standalone)">%EMULATOR_WINLATOR-LUDASHI% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
-		<command label="Winlator Cmod Glibc (Standalone)">%EMULATOR_WINLATOR-GLIBC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
-        <command label="Winlator Cmod PRoot (Standalone)">%EMULATOR_WINLATOR-PROOT% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
-		<command label="WinNative (Standalone)">%EMULATOR_WINNATIVE% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
-		<command label="GameNative Steam (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
-		<command label="GameNative Custom Game (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=CUSTOM_GAME %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
-		<command label="GameNative EPIC (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=EPIC %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
-		<command label="GameNative GOG (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=GOG %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
-		<command label="GameHub Lite (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_steamAppId%=%INJECT%=%ROM%</command>
-		<command label="GameHub Lite Local (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_localGameId%=%INJECT%=%ROM%</command>
-        <platform>pcwindows</platform>
-        <theme>windows</theme>
-    </system>
-	<system>
-        <name>xbox</name>
-        <fullname>Microsoft Xbox</fullname>
-        <path>%ROMPATH%/xbox</path>
-        <extension>.iso .ISO .xiso .XISO</extension>
-        <command label="X1 BOX (Standalone)">%EMULATOR_X1-BOX% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
-        <command label="hakuX (Standalone)">%EMULATOR_HAKUX% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
-        <command label="Xenra (Standalone)">%EMULATOR_XENRA% %DATA%=%ROMSAF%</command>
-        <platform>xbox</platform>
-        <theme>xbox</theme>
     </system>
 	<system>
         <name>xbox360</name>
