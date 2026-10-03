@@ -165,7 +165,7 @@
         <name>ps3</name>
         <fullname>Sony PlayStation 3</fullname>
         <path>%ROMPATH%/ps3</path>
-        <extension>.iso .ISO .ps3 .PS3</extension>
+        <extension>.chd .CHD .iso .ISO .ps3 .PS3</extension>
         <command label="aPS3e Game Serial (Standalone)">%EMULATOR_APS3E% %ACTION%=aenu.intent.action.APS3E %EXTRA_game_dir%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/aps3e/config/dev_hdd0/game/%INJECT%=%BASENAME%.ps3</command>
         <command label="aPS3e Directory (Standalone)">%EMULATOR_APS3E% %ACTION%=aenu.intent.action.APS3E %EXTRA_game_dir%=%ROM%</command>
         <command label="aPS3e ISO (Standalone)">%EMULATOR_APS3E% %ACTION%=aenu.intent.action.APS3E %EXTRA_iso_uri%=%ROMSAF%</command>
@@ -233,6 +233,7 @@
         <extension>.nca .NCA .nro .NRO .nso .NSO .nsp .NSP .xci .XCI</extension>
         <command label="Eden (Standalone)">%EMULATOR_EDEN% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
         <command label="Eden Nightly (Standalone)">%EMULATOR_EDEN-NIGHTLY% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
+		<command label="Lemon (Standalone)">%EMULATOR_LEMON% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
         <command label="Citron (Standalone)">%EMULATOR_CITRON% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
         <command label="Kenji-NX (Standalone)">%EMULATOR_KENJI-NX% %ACTION%=org.kenjinx.android.LAUNCH_GAME %EXTRA_bootPath%=%ROMSAF%</command>
         <command label="Benji-SC (Standalone)">%EMULATOR_BENJI-SC% %ACTION%=org.kenjinx.android.LAUNCH_GAME %EXTRA_bootPath%=%ROMSAF%</command>

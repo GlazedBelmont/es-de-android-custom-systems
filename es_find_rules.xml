@@ -59,6 +59,12 @@
 			<entry>org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
         </rule>
     </emulator>
+	<emulator name="LEMON">
+        <!-- Nintendo Switch emulator Eden -->
+        <rule type="androidpackage">
+            <entry>dev.lemon.lemon_emulator/dev.lemon.lemon_emu.activities.EmulationActivity</entry>
+        </rule>
+    </emulator>
     <emulator name="NYUSHU">
         <!-- Nintendo Switch emulator Nyushu -->
         <rule type="androidpackage">
