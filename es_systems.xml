@@ -226,6 +226,19 @@
         <platform>snes-msu1</platform>
         <theme>snes-msu1</theme>
     </system>
+	<system>
+        <name>steam</name>
+        <fullname>Valve Steam</fullname>
+        <path>%ROMPATH%/steam</path>
+        <extension>.desktop .droiddeck .pcgame .steam</extension>
+        <command label="GameNative (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=STEAM %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+        <command label="GameHub Lite (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_steamAppId%=%INJECT%=%ROM% %EXTRA_localGameId%=%INJECT%=%ROM%</command>
+        <command label="GameHub Lite Local (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_localGameId%=%INJECT%=%ROM%</command>
+        <command label="WinNative (Standalone)">%EMULATOR_WINNATIVE% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
+		<command label="DroidDeck (Standalone)">%EMULATOR_DROIDDECK% %ACTION%=android.intent.action.VIEW %DATA%=%INJECT%=%ROM%</command>
+        <platform>steam</platform>
+        <theme>steam</theme>
+    </system>
     <system>
         <name>switch</name>
         <fullname>Nintendo Switch</fullname>
@@ -286,6 +299,27 @@
         <platform>wiiu</platform>
         <theme>wiiu</theme>
     </system>
+	<system>
+        <name>windows</name>
+        <fullname>Microsoft Windows</fullname>
+        <path>%ROMPATH%/windows</path>
+        <extension>.amazon .desktop .droiddeck .epic .gog .pcgame .steam</extension>
+        <command label="Winlator Cmod (Standalone)">%EMULATOR_WINLATOR-CMOD% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
+        <command label="Winlator Cmod Glibc (Standalone)">%EMULATOR_WINLATOR-GLIBC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
+        <command label="Winlator Cmod PRoot (Standalone)">%EMULATOR_WINLATOR-PROOT% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
+        <command label="GameNative Steam (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=STEAM %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+        <command label="GameNative Epic (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=EPIC %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+        <command label="GameNative GOG (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=GOG %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+        <command label="GameNative Amazon (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=AMAZON %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+        <command label="GameNative Custom Game (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=CUSTOM_GAME %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+        <command label="GameHub Lite (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_steamAppId%=%INJECT%=%ROM%</command>
+        <command label="GameHub Lite Local (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_localGameId%=%INJECT%=%ROM%</command>
+        <command label="WinNative (Standalone)">%EMULATOR_WINNATIVE% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
+		<command label="DroidDeck (Standalone)">%EMULATOR_DROIDDECK% %ACTION%=android.intent.action.VIEW %DATA%=%INJECT%=%ROM%</command>
+        <platform>pcwindows</platform>
+        <theme>windows</theme>
+    </system>
+
 	<system>
         <name>xbox360</name>
         <fullname>Microsoft Xbox 360</fullname>

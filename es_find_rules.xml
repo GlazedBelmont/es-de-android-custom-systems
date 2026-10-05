@@ -40,6 +40,15 @@
             <entry>org.cytrus.cytrus_emu/.activities.EmulationActivity</entry>
         </rule>
     </emulator>
+	<emulator name="DROIDDECK">
+        <!-- Steam client DroidDeck -->
+        <rule type="androidpackage">
+            <entry>com.droiddeck.launcher/.MainActivity</entry>
+			<entry>com.antutu.benchmark.full/com.droiddeck.launcher.MainActivity</entry>
+			<entry>com.ludashi.benchmark/com.droiddeck.launcher.MainActivity</entry>
+			<entry>com.tencent.ig/com.droiddeck.launcher.MainActivity</entry>
+        </rule>
+    </emulator>
     <emulator name="DOLPHINCS">
         <!-- Nintendo GameCube and Wii emulator DolphinCS fork with external storage -->
         <rule type="androidpackage">
