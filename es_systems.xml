@@ -230,12 +230,12 @@
         <name>steam</name>
         <fullname>Valve Steam</fullname>
         <path>%ROMPATH%/steam</path>
-        <extension>.desktop .droiddeck .pcgame .steam</extension>
+        <extension>.desktop .pcgame .steam</extension>
         <command label="GameNative (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRA_game_source%=STEAM %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
         <command label="GameHub Lite (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_steamAppId%=%INJECT%=%ROM% %EXTRA_localGameId%=%INJECT%=%ROM%</command>
         <command label="GameHub Lite Local (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_localGameId%=%INJECT%=%ROM%</command>
         <command label="WinNative (Standalone)">%EMULATOR_WINNATIVE% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
-		<command label="DroidDeck (Standalone)">%EMULATOR_DROIDDECK% %ACTION%=android.intent.action.VIEW %DATA%=%INJECT%=%ROM%</command>
+		<command label="DroidDeck (Standalone)">%EMULATOR_DROIDDECK% %ACTION%=com.droiddeck.launcher.LAUNCH_GAME %EXTRA_app_id%=%INJECT%=%ROM%</command>
         <platform>steam</platform>
         <theme>steam</theme>
     </system>
