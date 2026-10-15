@@ -209,7 +209,7 @@
     </system>
     <system>
         <name>snes-msu1</name>
-        <fullname>Nintendo SNES (Super Nintendo)</fullname>
+        <fullname>Nintendo SNES MSU1 (Super Nintendo MSU1)</fullname>
         <path>%ROMPATH%/snes-msu1</path>
         <extension>.bin .BIN .bml .BML .bs .BS .bsx .BSX .dx2 .DX2 .fig .FIG .gd3 .GD3 .gd7 .GD7 .mgd .MGD .sfc .SFC .smc .SMC .st .ST .swc .SWC .7z .7Z .zip .ZIP</extension>
         <command label="Snes9x - Current">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/snes9x_libretro_android.so %EXTRA_ROM%=%ROM%</command>
