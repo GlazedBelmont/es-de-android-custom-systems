@@ -162,6 +162,20 @@
         <theme>nesh</theme>
     </system>
 	<system>
+        <name>n64</name>
+        <fullname>Nintendo 64</fullname>
+        <path>%ROMPATH%/n64</path>
+        <extension>.app .APP .bin .BIN .d64 .D64 .n64 .N64 .ndd .NDD .u1 .U1 .v64 .V64 .z64 .Z64 .7z .7Z .zip .ZIP</extension>
+        <command label="Mupen64Plus-Next">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/mupen64plus_next_gles3_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="M64Plus FZ (Standalone)">%EMULATOR_M64PLUS-FZ% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
+        <command label="Mupen64Plus AE (Standalone)">%EMULATOR_MUPEN64PLUS-AE% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
+        <command label="ParaLLEl N64">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/parallel_n64_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="Native port">%ANDROIDAPP%=%FILEINJECT%</command>
+		<command label="Gopher64 (Standalone)">%EMULATOR_GOPHER64% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
+        <platform>n64</platform>
+        <theme>n64</theme>
+    </system>
+	<system>
         <name>ps3</name>
         <fullname>Sony PlayStation 3</fullname>
         <path>%ROMPATH%/ps3</path>

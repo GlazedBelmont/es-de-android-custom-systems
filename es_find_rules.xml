@@ -68,6 +68,12 @@
 			<entry>org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
         </rule>
     </emulator>
+	<emulator name="GOPHER64">
+        <!-- Nintendo 64 emulator Gopher64 -->
+        <rule type="androidpackage">
+            <entry>io.github.gopher64.gopher64/.SlintActivity</entry>
+        </rule>
+    </emulator>
 	<emulator name="LEMON">
         <!-- Nintendo Switch emulator Eden -->
         <rule type="androidpackage">
