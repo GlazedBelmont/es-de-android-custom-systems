@@ -333,7 +333,6 @@
         <platform>pcwindows</platform>
         <theme>windows</theme>
     </system>
-
 	<system>
         <name>xbox360</name>
         <fullname>Microsoft Xbox 360</fullname>
@@ -342,6 +341,7 @@
         <command label="aX360e (Standalone)">%EMULATOR_AX360E% %ACTION%=aenu.intent.action.AX360E %EXTRA_game_uri%=%ROMSAF%</command>
 		<command label="X360 Mobile (Standalone)">%EMULATOR_X360MOBILE% %DATA%=%ROMSAF%</command>
 		<command label="XenDroid (Standalone)">%EMULATOR_XENDROID% %DATA%=%ROMSAF%</command>
+		<command label="XenDroid+ (Standalone)">%EMULATOR_XENDROIDPLUS% %DATA%=%ROMSAF%</command>
 		<command label="Xenra (Standalone)">%EMULATOR_XENRA% %DATA%=%ROMSAF%</command>
         <platform>xbox360</platform>
         <theme>xbox360</theme>

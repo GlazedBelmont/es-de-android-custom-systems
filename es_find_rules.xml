@@ -142,6 +142,12 @@
             <entry>com.studio08.xbgamestream/com.studio08.xbgamestream.PWAMainMenuActivity</entry>
         </rule>
     </emulator>
+	<emulator name="XENDROIDPLUS">
+        <!-- Microsoft Xbox 360 emulator XenDroid+ -->
+        <rule type="androidpackage">
+            <entry>xendroid.compose.fork/xendroid.compose.EmulatorHostActivity</entry>
+        </rule>
+    </emulator>
     <emulator name="YUZU">
         <!-- Nintendo Switch emulator Yuzu -->
         <rule type="androidpackage">
