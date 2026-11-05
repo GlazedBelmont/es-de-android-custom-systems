@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <!-- This is the ES-DE find rules configuration file for Android -->
 <ruleList>
+	<emulator name="ARMSX3">
+        <!-- Sony PlayStation 3 emulator ARMSX3-->
+        <rule type="androidpackage">
+            <entry>com.armsx3/com.armsx2.Main</entry>
+			<entry>com.armsx3.play/com.armsx2.Main</entry>
+        </rule>
+    </emulator>
 	<emulator name="BENJI-SC">
         <!-- Nintendo Switch emulator Benji-SC -->
         <rule type="androidpackage">
@@ -84,6 +91,8 @@
         <!-- Nintendo Switch emulator Eden -->
         <rule type="androidpackage">
             <entry>dev.lemon.lemon_emulator/dev.lemon.lemon_emu.activities.EmulationActivity</entry>
+			<entry>dev.lemon.lemon_emulator.lite/dev.lemon.lemon_emu.activities.EmulationActivity</entry>
+			<entry>com.antutu.ABenchMark/dev.lemon.lemon_emu.activities.EmulationActivity</entry>
         </rule>
     </emulator>
     <emulator name="NYUSHU">
