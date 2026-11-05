@@ -8,9 +8,20 @@ Those 2 XMLs will add in the following systems
 - NES Hacks (`nesh`)
 - SNES Hacks (`snesh`)
 - Switch (`switch`)
+- Microsoft Xbox (`xbox`), including [HakuX-Mali](https://github.com/Wannamingo/HakuX-Mali)
 
 They are to be placed in `ES-DE/custom_systems` (Download them and copy/paste them into that directory, make sure you don't have them end as `.txt`, they _have_ to be `.xml`).
 After adding the custom system files make sure to fully close ES-DE and restart it for the custom system files to load (not just rescan roms).
+
+## HakuX-Mali (Microsoft Xbox)
+
+Install [HakuX-Mali 1.0 or later](https://github.com/Wannamingo/HakuX-Mali/releases/latest), open it once, complete setup and grant it access to the same `ROMs/xbox` folder used by ES-DE. This is required because the launch command passes the game path using the emulator's `rom_path` extra; ES-DE's folder access does not grant access to the emulator.
+
+After installing these XML files and restarting ES-DE, select **HakuX-Mali (Standalone)** for **xbox** under **Alternative Emulators**. The existing X1 BOX, hakuX and Xenra alternatives are retained.
+
+ISO/XISO images can be launched directly. For an extracted game, keep all its files together and launch its `default.xbe`, for example `ROMs/xbox/Manhunt/default.xbe`. Other XBE filenames are not standalone launch targets in HakuX-Mali.
+
+The published APK uses package `com.rfandango.haku_x.debug`, despite being an optimized release build. Its activity is `com.rfandango.haku_x.LauncherActivity` (without `.debug`), so the find rule uses the full activity name.
 
 
 Why the hacks folders? I come from JelOS and these folders were present, art-book-next-es-de also has support for those now. **This also means other themes may just display a generic image for hacks**

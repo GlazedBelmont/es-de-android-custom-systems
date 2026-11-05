@@ -87,6 +87,12 @@
             <entry>io.github.gopher64.gopher64/.SlintActivity</entry>
         </rule>
     </emulator>
+    <emulator name="HAKUX-MALI">
+        <!-- Microsoft Xbox emulator HakuX-Mali -->
+        <rule type="androidpackage">
+            <entry>com.rfandango.haku_x.debug/com.rfandango.haku_x.LauncherActivity</entry>
+        </rule>
+    </emulator>
 	<emulator name="LEMON">
         <!-- Nintendo Switch emulator Eden -->
         <rule type="androidpackage">
